@@ -5,6 +5,7 @@ header {
   align-items: center;
   justify-content: flex-start;
   gap: 10em;
+  background: #EAF2FD;
 }
 
 .logo {

@@ -1,7 +1,8 @@
 /* Experiencia Académica */
-section.academic {
+.academic {
     text-align: center; /* Alinea el texto al centro */
     width: 100%;
+    background: #EAF2FD;
 }
 
 .academic__courses {

@@ -1,9 +1,9 @@
 /*Sección Hobbies*/
  
 section.hobbies {
-
     text-align: center; /* Alinea el texto al centro */
     width: 100%;
+    background: #FFFFFF;
 }
 
 .hobbies__line {
