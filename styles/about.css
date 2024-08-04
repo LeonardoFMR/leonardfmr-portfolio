@@ -1,8 +1,9 @@
 /*Sección About*/
- 
- 
-section.about{
-  background: #EAF2FD;;
+
+
+section.about {
+  background: #EAF2FD;
+  ;
 }
 
 
@@ -15,12 +16,13 @@ section.about{
   text-align: left;
   margin: 0.5em;
   margin-left: 1em;
-  
+
 }
 
 
-      
-.about__paragraph {
+
+.about__paragraph,
+.about__paragraph__end {
   font-family: 'Times New Roman', Times, serif;
   font-size: 23px;
   font-weight: 400;
@@ -31,46 +33,45 @@ section.about{
 
 }
 
-.firma{
+.about__paragraph__end {
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.firma {
   margin: 0.5em;
-  margin-left: 3em;
+  margin-left: 600px;
 }
 
 
 
 /*Tablet*/
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
 
-.about__title {
-  font-size: 16px;
+  .about__title {
+    font-size: 16px;
+  }
+
+  .about__paragraph {
+    font-size: 11px;
+    line-height: 16.44px;
+
+  }
+
 }
-  
-.about__paragraph {
-  font-size: 11px;
-  line-height: 16.44px;
-
-}
-
-}
 
 
- 
+
 /*Mobile*/
 @media (max-width: 425px) {
   .about__title {
     font-size: 15px;
   }
-    
+
   .about__paragraph {
     font-size: 10px;
     line-height: 16.44px;
 
   }
 
-
-
 }
-
-
-
-

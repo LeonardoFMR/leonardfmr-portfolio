@@ -1,4 +1,60 @@
 /* experiencia*/
 section.experience {
-    background-color: green;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+
+.experience__section__title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 63px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 26.44px;
+    margin-top: 30px;
+    padding: 30px;
+    color: #000000;
+    
+}
+
+.experiencie__box{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.experience__img{
+    width: 70%;
+}
+
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:60px;
+}
+
+.experience__description{
+    display: flex;
+    justify-content: space-around;
+}
+
+.experience__title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 33px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 16.44px;
+    color: #3e0e70;
+}
+
+.experience__text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-weight: 200;
+    text-align: left;
+    line-height: 6.44px;
+     color: #0c1a07;
 }
