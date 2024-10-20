@@ -69,6 +69,7 @@ section.experience {
         font-size: 22px;
         color: red;
         line-height: 1.2;
+        padding: 30px;
     }
 
     .experience__text {
@@ -76,6 +77,11 @@ section.experience {
         line-height: 16.44px;
         color: red;
         line-height: 1.2;
+        padding: 30px;
+    }
+    .experience__description {
+        
+        margin-bottom: 20px;
     }
 
 }
@@ -88,6 +94,7 @@ section.experience {
         font-size: 16px;
         color: green;
         line-height: 1.1;
+        padding: 30px;
     }
 
     .experience__text {
@@ -95,6 +102,14 @@ section.experience {
         line-height: 16.44px;
         color: green;
         line-height: 1.1;
+        padding: 30px;
+    }
+    .experience__description {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 20px;
     }
 
 }
