@@ -28,7 +28,7 @@ section.hobbies {
  
 /*Tablet*/
 @media (max-width: 768px) {
-    /*Hobbies*/
+    /*Hobbies*/ 
     .hobbies__box{
         max-width: calc(50% ); /* Establece el ancho máximo de las cajas flexibles en 50% del contenedor menos el margen */
     }
