@@ -3,7 +3,7 @@
 section.hobbies {
     text-align: center; /* Alinea el texto al centro */
     width: 100%;
-    background: #FFFFFF;
+    background: rgb(11, 44, 56);
 }
 
 .hobbies__line {

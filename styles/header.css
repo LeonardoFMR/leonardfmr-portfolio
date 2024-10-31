@@ -5,7 +5,8 @@ header {
   align-items: center;
   justify-content: flex-start;
   gap: 10em;
-  background: #EAF2FD;
+  /* background: #EAF2FD; */
+  background: #181a1b;
 }
 
 .logo {
@@ -27,15 +28,30 @@ header {
   gap: 1em;
 }
 
+.menu__item--contato {
+  color: #004daa;
+  font-weight: bold; /* Estilo adicional */
+  font-size: 18px; /* Tamaño de fuente */
+  text-decoration: underline;
+}
+
 
 .menu__list li a {
-  color:blue;
+  color: rgb(102, 184, 255);
 }
   
 .menu__list {
   display: flex;
+  
 }
  
+a:-webkit-any-link{
+  color: rgb(102, 184, 255);
+  cursor: pointer;
+ 
+  
+}
+
   
 .menu__header img {
   margin-right: 10px; /* Agrega un espacio entre la imagen y el texto */

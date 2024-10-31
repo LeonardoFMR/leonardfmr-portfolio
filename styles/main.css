@@ -16,10 +16,10 @@
 
 @import url("footer.css");
 
-body { background-color: #F5F5F5;
+body { background-color:  #050f13;
     line-height: 1;
     font-family: "Raleway";
-    color: #464646;
+    color: #F5F5F5;
     overflow-x: hidden;  /* Oculta el scroll del eje principal horizontal */
 }
 
