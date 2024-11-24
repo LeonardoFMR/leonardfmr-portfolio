@@ -18,7 +18,10 @@ section.about {
   margin-left: 1em;
 
 }
-
+ h1{
+  color: greenyellow;
+  text-shadow: 0 0 20px #FFC080, 0 0 30px #FF69B4; 
+ }
 
 
 .about__paragraph,
