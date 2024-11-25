@@ -70,7 +70,7 @@ section.experience {
 
     .experience__title {
         font-size: 22px;
-        color: red;
+        color: rgb(11, 44, 56);
         line-height: 1.2;
         padding: 30px;
         text-align: center;
@@ -79,7 +79,7 @@ section.experience {
     .experience__text {
         font-size: 16px;
         line-height: 16.44px;
-        color: red;
+        color: rgb(11, 44, 56);
         line-height: 1.2;
         padding: 30px;
         text-align: center;
