@@ -1,10 +1,12 @@
-/*Sección Hobbies*/
+/* Sección Hobbies*/
  
 section.hobbies {
     text-align: center; /* Alinea el texto al centro */
     width: 100%;
     background: rgb(11, 44, 56);
-}
+}   
+
+
 
 .hobbies__line {
     display: flex; /* Inicia flexbox en el contenedor */
@@ -45,6 +47,8 @@ section.hobbies {
 
 .hobbies__title{
     margin-bottom: 3em;
+    margin-top: 0.5em;
+    padding-top: 33px;
     font-size: 1.5em;
-    margin-top: 3em;
+    
 }
