@@ -89,8 +89,12 @@ section.title{
 .title__profile {  
   border-radius: 50%; /* Hace que la imagen tenga bordes redondeados, creando un círculo */
   max-width: 20%; /* Limita el ancho máximo de la imagen al 50% del contenedor */
+  margin-top: 20PX;
 }
 
+.badge-base {
+  margin-top:20px;
+}
 
   
 .menu__item--contato a {
