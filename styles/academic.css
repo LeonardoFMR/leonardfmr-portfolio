@@ -1,24 +1,22 @@
-/* Experiencia Académica */
 .academic {
-    text-align: center; /* Alinea el texto al centro */
+    text-align: center;
     width: 100%;
     background: #454a4d;
-
 }
 
 .academic__courses {
-    display: flex; /* Inicia flexbox en el contenedor */
-    padding: 0; /* Elimina el relleno de la lista */
-    flex-wrap: wrap; /* Envuelve los elementos en varias líneas si es necesario */
-    margin: 0% 2%; /* Reducir el margen superior e inferior y el margen izquierdo y derecho */
-    justify-content: center; /* Centra los elementos horizontalmente */
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    margin: 0% 2%;
+    justify-content: center;
 }
 
 .academic__courses__box {
-    flex: 1 1 200px; /* Establece flex-grow, flex-shrink y flex-basis */
-    margin: 10px; /* Ajusta el margen entre las cajas flexibles */
-    max-width: calc(33.33% - 20px); /* Establece el ancho máximo de las cajas flexibles en 33.33% del contenedor menos el margen */
-    box-sizing: border-box; /* Incluye el ancho del borde y el relleno en el cálculo del ancho */
+    flex: 1 1 200px;
+    margin: 10px;
+    max-width: calc(33.33% - 20px);
+    box-sizing: border-box;
 }
 
 .academic__title {
@@ -29,19 +27,16 @@
 }
 
 /* RESPONSIVIDAD */
-
 /* Tablet */
 @media (max-width: 768px) {
-    /* Formación Académica */
     .academic__courses__box {
-        max-width: calc(50% - 20px); /* Establece el ancho máximo de las cajas flexibles en 50% del contenedor menos el margen */
+        max-width: calc(50% - 20px);
     }
 }
 
 /* Mobile */
 @media (max-width: 425px) {
-    /* Formación Académica */
     .academic__courses__box {
-        max-width: calc(100% - 20px); /* Establece el ancho máximo de las cajas flexibles en 100% del contenedor menos el margen */
+        max-width: calc(100% - 20px);
     }
 }

@@ -5,7 +5,6 @@ header {
   align-items: center;
   justify-content: flex-start;
   gap: 10em;
-  /* background: #EAF2FD; */
   background: #181a1b;
 }
 
@@ -13,10 +12,8 @@ header {
   display: flex;
   align-items: center;
   gap: 2em;
-  
-  margin-right: 2em; /* Ajusta el margen izquierdo para separar del bloque .logo */
-  margin-left: 0%; /* Ajusta el margen izquierdo para separar del bloque .logo */
-
+  margin-right: 2em;
+  margin-left: 0%;
 }
 
 .logo__img {
@@ -24,49 +21,43 @@ header {
 }
 
 .menu__list {
-  margin-left: 5em; /* Ajusta el margen izquierdo para separar del bloque .logo */
+  margin-left: 5em;
   gap: 1em;
 }
 
 .menu__item--contato {
   color: #004daa;
-  font-weight: bold; /* Estilo adicional */
-  font-size: 18px; /* Tamaño de fuente */
+  font-weight: bold;
+  font-size: 18px;
   text-decoration: underline;
 }
-
 
 .menu__list li a {
   color: rgb(102, 184, 255);
 }
-  
+
 .menu__list {
   display: flex;
-  
 }
- 
-a:-webkit-any-link{
+
+a:-webkit-any-link {
   color: rgb(102, 184, 255);
   cursor: pointer;
- 
-  
 }
 
-  
+
 .menu__header img {
-  margin-right: 10px; /* Agrega un espacio entre la imagen y el texto */
+  margin-right: 10px;
 }
-  
-  
-/*Sección Title*/
-section.title{
 
-  display: flex; /* Inicia flexbox en el contenedor */
+
+section.title {
+  display: flex;
   justify-content: flex-start;
   width: 100%;
   gap: 3em;
   margin-left: 1em;
-}   
+}
 
 .title__bio {
   font-family: Raleway;
@@ -75,7 +66,7 @@ section.title{
   line-height: 25.83px;
   text-align: left;
 }
- 
+
 .title__subsection {
   font-family: Raleway;
   font-size: 1em;
@@ -86,24 +77,23 @@ section.title{
 }
 
 
-.title__profile {  
-  border-radius: 50%; /* Hace que la imagen tenga bordes redondeados, creando un círculo */
-  max-width: 20%; /* Limita el ancho máximo de la imagen al 50% del contenedor */
+.title__profile {
+  border-radius: 50%;
+  max-width: 20%;
   margin-top: 20PX;
 }
 
 .badge-base {
-  margin-top:20px;
+  margin-top: 20px;
 }
 
-  
+
 .menu__item--contato a {
-  font-weight: bold; /* Ajusta el peso de la fuente para que aparezca en negrita */
+  font-weight: bold;
 }
- 
-/* Estilos para los elementos de la red social */
+
 .title__network {
-  display: flex; /* Inicia flexbox en el contenedor */
+  display: flex;
   align-items: center;
   gap: 3em;
   margin-top: 1em;
@@ -111,14 +101,14 @@ section.title{
   color: aqua;
 }
 
-.title__network img{
+.title__network img {
   background-color: transparent;
   border-radius: 50%;
   background-color: aliceblue;
 }
 
-.presentacion{
-  display: flex; /* Inicia flexbox en el contenedor */
+.presentacion {
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
@@ -134,91 +124,77 @@ section.title{
 
   .logo {
     font-size: 16px;
-
   }
-    
-  /* Menú */
+
   .menu__list {
     display: flex;
     flex-direction: row;
     font-size: 14px;
-    margin-left: 1em; /* Ajusta el margen izquierdo para separar del bloque .logo */
+    margin-left: 1em;
     gap: 1em;
   }
-    
 
   .title__network {
-  gap: 2em;  
+    gap: 2em;
   }
 }
 
 
- 
+
 /*Mobile*/
 @media (max-width: 425px) {
-  /* Menú */
   header {
     gap: 5em;
   }
-  
 
   .menu__list {
     font-size: 11px;
   }
-    
-  .menu__list li:not(:last-child) {  /* Ocultar todos los elementos de la lista del menú excepto el último hijo */
-      display: none;
+
+  .menu__list li:not(:last-child) {
+    display: none;
   }
 
-  /*title*/
- 
-
-  /* Estilos para el elemento de contacto en la esquina superior derecha */
   .menu__item--contato {
     position: absolute;
     top: 1em;
     right: 0;
-    margin-right: 10px; /* Ajustar el margen para que no se solape con otros elementos */
+    margin-right: 10px;
   }
 
-  
   .menu__list {
     display: flex;
   }
 
   .menu__item {
-    margin-right: 10px; /* Agregar un espacio entre cada elemento del menú */
+    margin-right: 10px;
   }
 
-  .presentacion{
-    flex-direction: row-reverse;   
+  .presentacion {
+    flex-direction: row-reverse;
     gap: 0.2em;
   }
 
-  .title__profile {  
-    max-width: 30%; /* Limita el ancho máximo de la imagen al 50% del contenedor */
+  .title__profile {
+    max-width: 30%;
     margin-right: 1em;
   }
-  
+
   .title__bio {
     font-size: 1em;
     font-weight: 300;
     line-height: 25.83px;
   }
-   
+
   .title__subsection {
     font-size: 0.8em;
     font-weight: 200;
     line-height: 16.44px;
   }
-  
-  
+
   .title__network {
-    gap: 0.5em;  
+    gap: 0.5em;
     margin-left: 2%;
     font-size: 0.8em;
-    }
-
-    
+  }
 }
-

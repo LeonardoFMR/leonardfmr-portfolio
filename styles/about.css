@@ -1,12 +1,6 @@
-/*Sección About*/
-
-
 section.about {
   background: #202324;
-  
 }
-
-
 
 .about__title {
   font-family: 'Times New Roman', Times, serif;
@@ -18,11 +12,11 @@ section.about {
   margin-left: 1em;
 
 }
- h1{
-  color: greenyellow;
-  text-shadow: 0 0 20px #FFC080, 0 0 30px #FF69B4; 
- }
 
+h1 {
+  color: greenyellow;
+  text-shadow: 0 0 20px #FFC080, 0 0 30px #FF69B4;
+}
 
 .about__paragraph,
 .about__paragraph__end {
@@ -33,7 +27,6 @@ section.about {
   text-align: left;
   margin-left: 3em;
   line-height: 26.44px;
-
 }
 
 .about__paragraph__end {
@@ -46,24 +39,17 @@ section.about {
   margin-left: 600px;
 }
 
-
-
 /*Tablet*/
 @media (max-width: 1024px) {
-
   .about__title {
     font-size: 16px;
   }
-
+  
   .about__paragraph {
     font-size: 11px;
     line-height: 16.44px;
-
   }
-
 }
-
-
 
 /*Mobile*/
 @media (max-width: 425px) {
@@ -74,7 +60,5 @@ section.about {
   .about__paragraph {
     font-size: 10px;
     line-height: 16.44px;
-
   }
-
 }

@@ -1,11 +1,9 @@
-/* experiencia*/
 section.experience {
     background-color: #3e0e70;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-
 
 .experience__section__title {
     font-family: 'Times New Roman', Times, serif;
@@ -17,15 +15,14 @@ section.experience {
     padding: 30px;
     color: white;
     text-shadow: 0 0 20px #FFC080, 0 0 30px #FF69B4;
-    
-
 }
 
 .experiencie__box {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    background: #EAF2FD;
+    /* background: #EAF2FD; */
+    background-color: #2a0707;
 }
 
 .experience__img {
@@ -50,9 +47,9 @@ section.experience {
     font-weight: 300;
     text-align: center;
     line-height: 16.44px;
-    color: #3e0e70;
-    line-height: 1.5; /* Ajusta según lo necesario */
-
+    /* color: #3e0e70; */
+    color: aquamarine;
+    line-height: 1.5;
 }
 
 .experience__text {
@@ -61,14 +58,14 @@ section.experience {
     font-weight: 200;
     text-align: center;
     line-height: 1.5;
-    color: #0c1a07;
+    /* color: #0c1a07; */
+    color: silver;
     margin-left: 10px;
 }
 
-
+/* RESPONSIVIDAD */
 /*Tablet*/
 @media (max-width: 1024px) {
-
     .experience__title {
         font-size: 22px;
         color: rgb(11, 44, 56);
@@ -84,16 +81,12 @@ section.experience {
         line-height: 1.2;
         padding: 30px;
         text-align: center;
-       
     }
+
     .experience__description {
-        
         margin-bottom: 20px;
     }
-
 }
-
-
 
 /*Mobile*/
 @media (max-width: 425px) {
@@ -113,6 +106,7 @@ section.experience {
         padding: 30px;
         text-align: center;
     }
+
     .experience__description {
         display: flex;
         flex-direction: column;

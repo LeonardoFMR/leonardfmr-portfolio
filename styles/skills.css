@@ -1,31 +1,22 @@
- /*Sección Skills*/
- 
-section.skills{
-    
-    text-align: center; /* Alinea el texto al centro */
+section.skills {
+    text-align: center;
     width: 100%;
     background: #031351;
-    
-
 }
 
-.skills__line{
-    
-    display: flex; /* Inicia flexbox en el contenedor */
-    padding: 0; /* Elimina el relleno de la lista */
-    flex-wrap: wrap; /* Envuelve los elementos en varias líneas si es necesario */
-    margin: 0% 2%; /* Reducir el margen superior e inferior y el margen izquierdo y derecho */
-
+.skills__line {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    margin: 0% 2%;
 }
 
-.skills__box{
-    
-    flex: 1 1 200px; /* Establece flex-grow, flex-shrink y flex-basis */
-    margin: 10px; /* Ajusta el margen entre las cajas flexibles */
-    max-width: calc(33.33%); /* Establece el ancho máximo de las cajas flexibles en 33.33% del contenedor menos el margen */
-    box-sizing: border-box; /* Incluye el ancho del borde y el relleno en el cálculo del ancho */
+.skills__box {
+    flex: 1 1 200px;
+    margin: 10px;
+    max-width: calc(33.33%);
+    box-sizing: border-box;
 }
-
 
 .skills__title {
     margin-bottom: 3em;
@@ -37,19 +28,14 @@ section.skills{
 /* RESPONSIVIDAD */
 /*Tablet*/
 @media (max-width: 768px) {
-    /*Skills*/
     .skills__box {
-        max-width: calc(50%); /* Establece el ancho máximo de las cajas flexibles en 50% del contenedor menos el margen */
+        max-width: calc(50%);
     }
-
 }
 
 /*Mobile*/
 @media (max-width: 425px) {
-    /*Skills*/
     .skills__box {
-        max-width: calc(100% ); /* Establece el ancho máximo de las cajas flexibles en 50% del contenedor menos el margen */
+        max-width: calc(100%);
     }
-   
 }
-
