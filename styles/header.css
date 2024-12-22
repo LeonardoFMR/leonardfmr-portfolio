@@ -137,6 +137,9 @@ section.title {
   .title__network {
     gap: 2em;
   }
+  .presentacion{
+    display: block;
+  }
 }
 
 
