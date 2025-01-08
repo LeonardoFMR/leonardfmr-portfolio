@@ -7,8 +7,8 @@ section.skills {
 .skills__line {
     display: flex;
     padding: 0;
-    flex-wrap: wrap;
     margin: 0% 2%;
+    justify-content: center;
 }
 
 .skills__box {
@@ -28,14 +28,18 @@ section.skills {
 /* RESPONSIVIDAD */
 /*Tablet*/
 @media (max-width: 768px) {
+    .skills__line {
+        flex-wrap: wrap;
+
+    }
     .skills__box {
-        max-width: calc(50%);
+        max-width: calc(35%);
     }
 }
 
 /*Mobile*/
 @media (max-width: 425px) {
     .skills__box {
-        max-width: calc(100%);
+        max-width: calc(25%);
     }
 }

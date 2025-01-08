@@ -1,6 +1,5 @@
  section.hobbies {
      text-align: center;
-     /* Alinea el texto al centro */
      width: 100%;
      background: rgb(11, 44, 56);
  }
@@ -8,8 +7,8 @@
  .hobbies__line {
      display: flex;
      padding: 0;
-     flex-wrap: wrap;
-     margin: 0% 2%;
+     margin: 1% 2%;
+     justify-content: center;
  }
 
  .hobbies__box {
@@ -23,14 +22,18 @@
  /*Tablet*/
  @media (max-width: 768px) {
      .hobbies__box {
-         max-width: calc(50%);
+         max-width: calc(35%);
+     }
+
+     .hobbies__line {
+         flex-wrap: wrap;
      }
  }
 
  /*Mobile*/
  @media (max-width: 425px) {
      .hobbies__box {
-         max-width: calc(100%);
+         max-width: calc(25%);
      }
  }
 
