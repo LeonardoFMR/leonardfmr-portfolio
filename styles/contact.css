@@ -1,0 +1,19 @@
+.formcontato__img{
+    max-height: 10%;
+    max-width: 10%;
+}
+
+.formcontato{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.formcontato__formulario{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    gap: 10px;
+}
