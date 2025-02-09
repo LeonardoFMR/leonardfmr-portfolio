@@ -1,5 +1,8 @@
 
 section.footer{
-    background-color: magenta;
+    background-color: black;
 }
   
+.footer__rodape{
+    text-align: center;
+}

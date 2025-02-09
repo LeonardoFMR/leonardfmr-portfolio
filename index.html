@@ -21,7 +21,7 @@
                 <h3 class="menu__title">Leonardo Morales</h3> <!-- Elemento dentro del bloque menu. -->
             </div>
             <ul class="menu__list"> <!-- Elemento dentro del bloque menu.  -->
-                <li class="menu__item"><a href="#sobre-mi">About me</a></li>
+                <li class="c"><a href="#sobre-mi">About me</a></li>
                 <!-- Elemento dentro del bloque menu__list. -->
                 <li class="menu__item"><a href="#skills">Skills</a></li> <!-- Elemento dentro del bloque menu__list. -->
                 <li class="menu__item"><a href="#hobbies">Hobbies</a></li>
@@ -30,8 +30,6 @@
                 <!-- Elemento dentro del bloque menu__list. -->
                 <li class="menu__item"><a href="#xp">Projects</a></li> <!-- Elemento dentro del bloque menu__list. -->
                 <li class="menu__item menu__item--contato"><a href="#contacto">leonardfmr@gmail.com</a></li>
-                <li class="menu__item menu__item--badge"></li>
-
             </ul>
         </header>
 
@@ -39,15 +37,24 @@
         <section class="title">
             <div class="title__div">
                 <div class="presentacion">
-                    <img class="title__profile" src="assets\profile.png" alt="Foto de perfil">
+                    <img class="title__profile__photo1" src="assets\profile.png" alt="Foto de perfil">
                     <div class="presentacion__texto">
-                        <h2 class="title__bio">Hola, soy Leonardo Morales constructor de paginas web</h2>
+                        <img class="title__profile__photo2" src="assets\profile.png" alt="Foto de perfil">
+
+                        <h2 class="title__bio">Hola, soy Leonardo Morales constructor de páginas web</h2>
                         <!-- Elemento dentro del bloque title. -->
                         <h3 class="title__subsection">Comencé mi formación académica en la Universidad de Guadalajara,
-                            donde resido, actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</h3>
+                            inicié este proyecto mediante Oracle ONE en Alura Latam.</h3>
                         <!-- Elemento dentro del bloque title. -->
-                        <h3 class="title__subsection">Este portafolio muestra un poco de mí.</h3>
+                        <h3 class="title__subsection">Este portafolio muestra un poco de mis conocimientos.</h3>
                         <!-- Elemento dentro del bloque title. -->
+
+                        <!-- <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium"
+                            data-theme="dark" data-type="VERTICAL" data-vanity="leonardofmr" data-version="v1"><a
+                                class="badge-base__link LI-simple-link"
+                                href="https://mx.linkedin.com/in/leonardofmr?trk=profile-badge"
+                                aria-label="Ver perfil de LinkedIn de Leonardo"></a>
+                        </div> -->
 
 
                     </div>
@@ -295,11 +302,11 @@
                 <div class="formcontato--izq">
                     <img class="formcontato__img" src="assets\imagen_contacto.png">
                 </div>
-                <div class="formcontato__text">
+                <div class="formcontato__">
                     <h2 class="formcontato__title">Contacto</h2>
                     <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
-                    <h3 class="formcontato__subtext">Sección en desarrollo </h3>
-                    <!-- <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3> -->
+                    <h3 class="formcontato__text">Complete el siguiente formulario y me pondré en contacto con usted lo
+                        antes posible. </h3>
                 </div>
                 <div class="formulario">
                     <form class="formcontato__formulario" name="form">
@@ -308,23 +315,23 @@
                         <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
                         <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
                             placeholder="Mensaje"></textarea>
-                        <button type="submit" class="formcontato__boton">Enviar mensaje</button>
+                        <button type="submit" class="formcontato__botonEnviar">Enviar mensaje</button>
                     </form>
                 </div>
             </div>
-
-            <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="dark"
-                data-type="VERTICAL" data-vanity="leonardofmr" data-version="v1"><a
-                    class="badge-base__link LI-simple-link"
-                    href="https://mx.linkedin.com/in/leonardofmr?trk=profile-badge"
-                    aria-label="Ver perfil de LinkedIn de Leonardo"></a>
+            <div class="badge-container">
+                <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="dark"
+                    data-type="HORIZONTAL" data-vanity="leonardofmr" data-version="v1"><a
+                        class="badge-base__link LI-simple-link"
+                        href="https://mx.linkedin.com/in/leonardofmr?trk=profile-badge"
+                        aria-label="Ver perfil de LinkedIn de Leonardo"></a>
+                </div>
             </div>
 
 
         </section>
 
         <!-- Script del badge Linkedin JavaScript -->
-
         <script src="validacion.js"></script>
         <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 </body>
@@ -333,7 +340,7 @@
 <section class="footer">
     <div class="footer__rodape">
         <p>Desarrollado por Leonardo Morales</p>
-        <p>2022</p>
+        <p>2025</p>
     </div>
 </section>
 

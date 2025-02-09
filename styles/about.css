@@ -1,5 +1,6 @@
 section.about {
   background: #202324;
+  padding: 30px;
 }
 
 .about__title {
@@ -40,12 +41,13 @@ h1 {
   margin-left: 600px;
 }
 
+
 /*Tablet*/
 @media (max-width: 1024px) {
+ 
 
   .about__paragraph__end{
     justify-content: center;
-
   }
   .about__title {
     font-size: 16px;
