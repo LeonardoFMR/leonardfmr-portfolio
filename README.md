@@ -9,4 +9,5 @@
 ---
 ### Este es el repositorio base de mi proyecto Portafolio desafío de Alura LATAM.
 ### En este trabajo se nos invitó a presentar habilidades y evidencias de nuestros conocimientos disponibilzando la información. 
-### (Reducir altura del badge y recorrer la firma hacia la derecha )
+
+### 

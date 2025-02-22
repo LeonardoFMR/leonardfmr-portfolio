@@ -1,6 +1,7 @@
 section.about {
   background: #202324;
   padding: 30px;
+  gap: 10px;
 }
 
 .about__title {
@@ -13,6 +14,11 @@ section.about {
   margin-left: 1em;
 
 }
+
+/* .about__container{
+  background-color: #FF69B4;
+  
+} */
 
 h1 {
   color: greenyellow;
@@ -27,32 +33,36 @@ h1 {
   line-height: 16px;
   text-align: left;
   /* margin-left: 3em; */
-  line-height: 26.44px;
+  line-height: 36.44px;
 }
 
 .about__paragraph__end {
   /* margin-left: 200px; */
   margin-top: 20px;
-  text-align: right;
+  text-align: center;
+  color: cyan;
 }
 
 .firma {
   margin: 0.5em;
-  margin-left: 600px;
+  display: flex;
+  justify-self: center;
+
 }
 
 
 /*Tablet*/
 @media (max-width: 1024px) {
- 
 
-  .about__paragraph__end{
+
+  .about__paragraph__end {
     justify-content: center;
   }
+
   .about__title {
     font-size: 16px;
   }
-  
+
   .about__paragraph {
     font-size: 11px;
     line-height: 16.44px;
