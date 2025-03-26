@@ -12,7 +12,7 @@
 
 @import url("academic.css");
 
-@import url("projects.css");
+@import url("experience.css");
 
 @import url("formcontato.css");
 
@@ -21,12 +21,11 @@
 @import url("contact.css");
 
 body {
-    background-color: #050f13;
+    background-color: var(--background);
     line-height: 1;
     font-family: "Raleway";
     color: #F5F5F5;
     overflow-x: hidden;
-    /* Oculta el scroll del eje principal horizontal */
 }
 
 main {
@@ -35,16 +34,12 @@ main {
     align-items: center;
 }
 
-/* .badge-container iframe {
-    width: 30px;
-    height: 10px;
+:root { 
+    
+    --deeppurple: #4b0082; 
+    --lightblue: rgb(102, 184, 255);
+    --strongblue: #2271D1;
+    --heavyblue: #031351;
+    --agua: aqua;
+    --background: #050f13;
 }
-
-.badge-container {
-    width: 30px;
-    height: 10px;
-}
-.badge-base__link {
-    height: 10px;
-    width: 10px;
-} */

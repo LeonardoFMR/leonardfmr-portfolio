@@ -1,41 +1,39 @@
-a:-webkit-any-link {
-  color: rgb(102, 184, 255);
-  cursor: pointer;
-}
-
-
 
 section.title {
   display: flex;
   justify-content: flex-start;
   width: 100%;
-  /* gap: 3em; */
-  margin-left: 8px;
+  margin-left: 0.5rem; 
 }
 
 .title__bio {
-  font-family: Raleway;
-  font-size: 45px;
+  font-family: Raleway, sans-serif;
+  font-size: 2.8125rem; 
   font-weight: 700;
-  line-height: 55.83px;
-  width: 60%;
-  justify-self: center;
-  color: aqua;
+  line-height: 3.4894rem; 
+  text-align: center;
+  color: var(--agua);
 }
 
 .title__subsection {
-  font-family: Raleway;
-  font-size: 30px;
+  font-family: Raleway, sans-serif;
+  font-size: 1.875rem; 
   font-weight: 500;
-  line-height: 41.44px;
-  /* padding: 5px; */
+  line-height: 2.59rem; 
   width: 80%;
+  text-shadow:  
+  -0.0625rem -0.125rem 0 black,  
+   0.0625rem -0.125rem 0 black,  
+  -0.0625rem  0.125rem 0 black,  
+   0.0625rem  0.125rem 0 black;
 }
 
+.title__profile__photo1{
+  margin-top: 0.9375rem;
+}
 
-.title__profile__photo1 {
-  width: 15%;
-  height: 15%;
+.title__profile__photo1, 
+.title__profile__photo2 {
   display: block;
   border-radius: 50%;
 }
@@ -43,149 +41,147 @@ section.title {
 .title__profile__photo2 {
   width: 0;
   display: none;
-  border-radius: 50%;
-
 }
 
 .badge-base {
-  margin-top: 20px;
+  margin-top: 1.25rem; 
+  max-width: 10%;
 }
 
 .title__network {
   display: flex;
   justify-content: center;
-  gap: 50px;
-  padding: 5px;
+  gap: 3.125rem; 
+  padding: 0.3125rem; 
 }
 
 .title__network__item_img {
   border-radius: 50%;
-  margin-top: 5px;
-  margin-left: 5px;
+  margin: 0.3125rem 0 0.1875rem 0.3125rem;
   display: flex;
   flex-direction: row;
-  margin-bottom: 3px;
-  background-color: red;
-  /* background-color: red; */
-
-
+  background-color: aqua;
+  
+  
 }
 
 .title__network__item {
-  margin-top: 5px;
-  /* background-color: blue; */
+  margin-top: 0.3125rem; 
   border-radius: 50%;
+}
 
+.title__network__item_img:hover{
+  box-shadow: inset 0 0 7.25rem var(--deeppurple), 0 0 0.3125rem white;
+  border: 0.0625rem solid var(--agua);;
+  color: var(--strongblue);
+  padding: 0.125rem; 
 }
 
 .presentacion__texto {
   display: flex;
-  padding: 20px;
+  padding: 0.3125rem;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 0.3125rem;
+  max-width: 60%;
 }
 
 .presentacion {
   display: flex;
-  gap: 10px;
-  padding: 5px;
+  gap:  0.3125rem; 
+  padding: 0.3125rem;
 }
 
 
 
-/*Tablet*/
-@media (max-width: 1024px) {
+.presentacion img{
+  max-width: 25%;
+  min-width: 20%;
+}
 
+/* RESPONSIVIDAD */
+/* Tablet */
+@media (max-width: 64rem) { 
   .badge-base {
-    display: none;
+      display: none;
   }
 
   .title__profile__photo1 {
-    display: none;
+      display: none;
   }
 
   .title__profile__photo2 {
-    display: block;
-    min-width: 16%;
-    max-height: 24%;
-
+      display: block;
+   
   }
 
   .menu__list {
-    gap: 15px;
-    font-size: 12px;
+      gap: 0.9375rem; 
+      font-size: 0.75rem; 
   }
 
   .title__network {
-    gap: 20px;
-    padding: 1px;
-    margin-bottom: 5px;
+      gap: 1.25rem; 
+      padding: 0.0625rem;
+      margin-bottom: 0.3125rem; 
   }
 
   .presentacion {
-    padding-right: 20px;
+      padding-right: 1.25rem; 
   }
 
   .title__bio {
-    font-size: 30px;
-    line-height: 30.83px;
-    margin-left: 30px;
+      font-size: 1.875rem; 
+      line-height: 1.927rem; 
+      margin-left: 1.875rem; 
+      max-width: 60%;
   }
 
   .title__subsection {
-    font-size: 20px;
-    margin-left: 2px;
-    font-family: Raleway;
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 36.44px;
-    /* padding: 5px; */
-    width: 95%;
+      font-size: 1.75rem;
+      font-weight: 400;
+      line-height: 2.2775rem; 
+      width: 95%;
   }
 
   .presentacion__texto {
-    width: 95%;
-    gap: 8px;
-    padding: 8px;
-
+      max-width: 95%;
+      gap: 0.3125rem; 
+      padding: 0.3125rem; 
   }
 }
 
-
-/*Mobile*/
-@media (max-width: 425px) {
-
-
+/* Mobile */
+@media (max-width: 26.5625rem) {
   .presentacion {
-    margin-right: 10px;
+      margin-right: 0.625rem; 
   }
 
   .title__profile__photo2 {
-    display: block;
-    min-width: 22%;
-    max-height: 26%;
+      display: block;
+  
+  }
 
+  .presentacion img{
+    max-width: 15%;
+    min-width: 25%;
   }
 
   .title__bio {
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 28.83px;
-    width: 55%;
-
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.8019rem; 
+      width: 55%;
   }
 
   .title__subsection {
-    font-size: 0.8em;
-    font-weight: 200;
-    line-height: 31.44px;
-    /* margin-left: 20% */
+      font-size: 0.8rem;
+      font-weight: 200;
+      line-height: 1.9659rem; 
   }
 
   .presentacion__texto {
-    width: 100%;
-    gap: 5px;
-    padding: 5px;
-
+      width: 100%;
+      gap: 0.3125rem; 
+      padding: 0.3125rem;
   }
 }
