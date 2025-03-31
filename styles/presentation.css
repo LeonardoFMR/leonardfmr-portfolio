@@ -1,12 +1,12 @@
 
-section.title {
+.presentacion {
   display: flex;
   justify-content: flex-start;
   width: 100%;
   margin-left: 0.5rem; 
 }
 
-.title__bio {
+.presentacion__bio {
   font-family: Raleway, sans-serif;
   font-size: 2.8125rem; 
   font-weight: 700;
@@ -15,7 +15,7 @@ section.title {
   color: var(--agua);
 }
 
-.title__subsection {
+.presentacion__subsection {
   font-family: Raleway, sans-serif;
   font-size: 1.875rem; 
   font-weight: 500;
@@ -28,17 +28,16 @@ section.title {
    0.0625rem  0.125rem 0 black;
 }
 
-.title__profile__photo1{
+.presentacion__img{
   margin-top: 0.9375rem;
 }
 
-.title__profile__photo1, 
-.title__profile__photo2 {
+.presentacion__img {
   display: block;
   border-radius: 50%;
 }
 
-.title__profile__photo2 {
+.presentacion__img--mobile {
   width: 0;
   display: none;
 }
@@ -48,14 +47,14 @@ section.title {
   max-width: 10%;
 }
 
-.title__network {
+.presentacion__network {
   display: flex;
   justify-content: center;
   gap: 3.125rem; 
   padding: 0.3125rem; 
 }
 
-.title__network__item_img {
+.presentacion__network-item__img {
   border-radius: 50%;
   margin: 0.3125rem 0 0.1875rem 0.3125rem;
   display: flex;
@@ -65,12 +64,12 @@ section.title {
   
 }
 
-.title__network__item {
+.presentacion__network-item {
   margin-top: 0.3125rem; 
   border-radius: 50%;
 }
 
-.title__network__item_img:hover{
+.presentacion__network-item__img:hover{
   box-shadow: inset 0 0 7.25rem var(--deeppurple), 0 0 0.3125rem white;
   border: 0.0625rem solid var(--agua);;
   color: var(--strongblue);
@@ -85,7 +84,7 @@ section.title {
   max-width: 60%;
 }
 
-.presentacion {
+.presentacion__contenido {
   display: flex;
   gap:  0.3125rem; 
   padding: 0.3125rem;
@@ -105,11 +104,11 @@ section.title {
       display: none;
   }
 
-  .title__profile__photo1 {
+  .presentacion__img {
       display: none;
   }
 
-  .title__profile__photo2 {
+  .presentacion__img--mobile {
       display: block;
    
   }
@@ -119,7 +118,7 @@ section.title {
       font-size: 0.75rem; 
   }
 
-  .title__network {
+  .network {
       gap: 1.25rem; 
       padding: 0.0625rem;
       margin-bottom: 0.3125rem; 
@@ -129,14 +128,14 @@ section.title {
       padding-right: 1.25rem; 
   }
 
-  .title__bio {
+  .presentacion__bio {
       font-size: 1.875rem; 
       line-height: 1.927rem; 
       margin-left: 1.875rem; 
       max-width: 60%;
   }
 
-  .title__subsection {
+  .presentacion__subsection {
       font-size: 1.75rem;
       font-weight: 400;
       line-height: 2.2775rem; 
@@ -156,7 +155,7 @@ section.title {
       margin-right: 0.625rem; 
   }
 
-  .title__profile__photo2 {
+  .presentacion__img--mobile {
       display: block;
   
   }
@@ -166,14 +165,14 @@ section.title {
     min-width: 25%;
   }
 
-  .title__bio {
+  .presentacion__bio {
       font-size: 1rem;
       font-weight: 300;
       line-height: 1.8019rem; 
       width: 55%;
   }
 
-  .title__subsection {
+  .presentacion__subsection {
       font-size: 0.8rem;
       font-weight: 200;
       line-height: 1.9659rem; 

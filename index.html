@@ -18,31 +18,34 @@
         <header>
             <div class="logo" id="inicio">
                 <img class="logo__img" src="assets/vector.png" alt="Ícono de estrellas">
-                <h3 class="menu__title">Leonardo Morales</h3> 
+                <h3 class="logo__title">Leonardo Morales</h3>
             </div>
-            <nav class="menu__list"> 
+            <nav class="menu__list">
                 <a class="menu__item" href="#sobre-mi">About me</a>
                 <a class="menu__item" href="#skills">Skills</a>
                 <a class="menu__item" href="#hobbies">Hobbies</a>
                 <a class="menu__item" href="#formacion">Professional training</a>
-                <a class="menu__item" href="#xp">Projects</a> 
-                <a class="menu__item" id="item-contacto" href="#networks">leonardfmr@gmail.com</a>
+                <a class="menu__item" href="#xp">Projects</a>
+                <a class="menu__item menu__item--contacto" href="#networks">leonardfmr@gmail.com</a>
             </nav>
         </header>
-        
+
 
         <!-- Presentacion -->
-        <section class="title" id="presentacion">
-            <div class="title__div">
-                <div class="presentacion">
-                    <img class="title__profile__photo1" src="assets/profile.png" alt="Foto de perfil">
+        <section class="presentacion" id="presentacion">
+            <div class="presentacion__contenedor">
+                <div class="presentacion__contenido">
+                    <img class="presentacion__img presentacion__img--desktop" src="assets/profile.png"
+                        alt="Foto de perfil">
                     <div class="presentacion__texto">
-                        <img class="title__profile__photo2" src="assets/profile.png" alt="Foto de perfil">
+                        <img class="presentacion__img presentacion__img--mobile" src="assets/profile.png"
+                            alt="Foto de perfil">
 
-                        <h2 class="title__bio">Hola, soy constructor de páginas web.</h2>
-                        <h3 class="title__subsection">Comencé mi formación académica en la Universidad de Guadalajara,
+                        <h2 class="presentacion__bio">Hola, soy constructor de páginas web.</h2>
+                        <h3 class="presentacion__subsection">Comencé mi formación académica en la Universidad de
+                            Guadalajara,
                             inicié este proyecto mediante Oracle ONE en Alura Latam.</h3>
-                        <h3 class="title__subsection">Este portafolio muestra un poco de mis conocimientos.</h3>
+                        <h3 class="presentacion__subsection">Este portafolio muestra un poco de mis conocimientos.</h3>
 
 
                     </div>
@@ -54,34 +57,38 @@
                     </div>
                 </div>
 
-                <ul class="title__network" id="networks">
+                <ul class="presentacion__network" id="networks">
 
-                    <li class="title__network__item">
-                        <a href="https://github.com/LeonardoFMR" target="_blank" aria-label="Visita mi perfil de Github">
+                    <li class="presentacion__network-item">
+                        <a href="https://github.com/LeonardoFMR" target="_blank"
+                            aria-label="Visita mi perfil de Github">
                             Github
-                            <img class="title__network__item_img" src="assets/github.png" alt="Ícono Github">
+                            <img class="presentacion__network-item__img" src="assets/github.png" alt="Ícono Github">
                         </a>
                     </li>
 
-                    <li class="title__network__item">
-                        <a href="https://mx.linkedin.com/in/leonardofmr?trk=profile-badge" target="_blank" aria-label="Visita mi perfil de Linkedin">
+                    <li class="presentacion__network-item">
+                        <a href="https://mx.linkedin.com/in/leonardofmr?trk=profile-badge" target="_blank"
+                            aria-label="Visita mi perfil de Linkedin">
                             Linkedin
-                            <img class="title__network__item_img" src="assets/linkedin.png" alt="Ícono Linkedin">
+                            <img class="presentacion__network-item__img" src="assets/linkedin.png" alt="Ícono Linkedin">
                         </a>
                     </li>
 
-                    <li class="title__network__item">
-                        <a href="https://www.instagram.com/leonard_warhol/" target="_blank" aria-label="Visita mi perfil de Instagram">
+                    <li class="presentacion__network-item">
+                        <a href="https://www.instagram.com/leonard_warhol/" target="_blank"
+                            aria-label="Visita mi perfil de Instagram">
                             Instagram
-                            <img class="title__network__item_img" src="assets/instagram.png" alt="Ícono Instagram">
+                            <img class="presentacion__network-item__img" src="assets/instagram.png"
+                                alt="Ícono Instagram">
                         </a>
                     </li>
 
-                    <li class="title__network__item">
+                    <li class="presentacion__network-item">
                         <a href="https://docs.google.com/document/d/1kagCqMqgfvF4eUgcKbhbSEmHxavEga8t/edit?usp=sharing&ouid=115205270928286638522&rtpof=true&sd=true"
-                            target="_blank" aria-label="Descarga mi currículum" >
+                            target="_blank" aria-label="Descarga mi currículum">
                             Currículo
-                            <img class="title__network__item_img" src="assets/pdf.png" alt="Ícono de un PDF">
+                            <img class="presentacion__network-item__img" src="assets/pdf.png" alt="Ícono de un PDF">
                         </a>
                     </li>
                 </ul>
@@ -92,7 +99,7 @@
         <section class="about" id="sobre-mi">
             <div class="about__container">
                 <h1 class="about__title">About me</h1>
-                <p class="about__paragraph">Programador en proceso. </p>
+                <p class="about__paragraph about__paragraph--destacado">Programador en proceso. </p>
                 <p class="about__paragraph">A través de un aprendizaje autogestivo constante y vigente he adquirido las
                     habilidades básicas de la programación.</p>
                 <p class="about__paragraph">Durante los últimos años he actualizado y formalizado mis conocimientos
@@ -109,42 +116,42 @@
             <div class="skills__line">
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"><img src="assets/html.png" alt="Ícono HTML5"></li>
+                        <li class="skills__item"><img class="skills__item-img" src="assets/html.png" alt="Ícono HTML5"></li>
                         <li class="skills__name"> HTML 5</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets/js_icon.png" alt="Ícono JavaScript"></li>
+                        <li class="skills__item"> <img class="skills__item-img" src="assets/js_icon.png" alt="Ícono JavaScript"></li>
                         <li class="skills__name">Javascript</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets/css_icon.png" alt="Ícono CSS"> </li>
+                        <li class="skills__item"> <img class="skills__item-img" src="assets/css_icon.png" alt="Ícono CSS"> </li>
                         <li class="skills__name">CSS</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets/react_icon.png" alt="Ícono React"> </li>
+                        <li class="skills__item"> <img class="skills__item-img" src="assets/react_icon.png" alt="Ícono React"> </li>
                         <li class="skills__name">React</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets/sql.png" alt="Ícono SQL"> </li>
+                        <li class="skills__item"> <img class="skills__item-img" src="assets/sql.png" alt="Ícono SQL"> </li>
                         <li class="skills__name">SQL</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets/typescript.png" alt="Ícono TypeSript"> </li>
+                        <li class="skills__item"> <img class="skills__item-img" src="assets/typescript.png" alt="Ícono TypeSript"> </li>
                         <li class="skills__name">TypeScript</li>
                     </ul>
                 </div>
@@ -345,4 +352,3 @@
 </section>
 
 </html>
-

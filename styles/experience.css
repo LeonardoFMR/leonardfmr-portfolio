@@ -67,15 +67,15 @@
     font-weight: 200;
     text-align: center;
     line-height: 1.5;
-    color: silver;
+    color: var(--strongblue);
 }
 
 
 .experience__description button{
     border: 5px 5px 5px 5px;
     border-color: var(--background);
-    color: white;
     background-color: transparent;
+    color: var(--lightblue);
 }
 
 

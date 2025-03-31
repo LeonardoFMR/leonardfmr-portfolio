@@ -10,7 +10,7 @@ header {
   border-bottom: 0.095rem solid var(--strongblue);
 }
 
-.menu__title {
+.logo__title {
   color: var(--deeppurple);
   font-size: 1.25rem;
   margin-left: 0.3125rem;
@@ -45,7 +45,7 @@ a {
   margin-top: 1.25rem;
 }
 
-#item-contacto {
+.menu__item--contacto {
   color: var(--strongblue);
   font-weight: bold;
   font-weight: bold;
