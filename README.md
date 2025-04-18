@@ -8,13 +8,6 @@ Este proyecto continúa en desarrollo, ya que sigo adquiriendo nuevas habilidade
 
 ---
 
-## 📘 Descripción
-
-**Portafolio base** desarrollado como parte del desafío de **Alura LATAM**.  
-Este proyecto tiene como objetivo mostrar mis habilidades en desarrollo web mediante una presentación profesional de mis conocimientos y avances.
-
----
-
 ## 📂 Acerca del repositorio
 
 Este repositorio corresponde a mi portafolio personal, desarrollado como parte del desafío propuesto por **Alura LATAM**.  
