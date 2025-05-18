@@ -1,8 +1,9 @@
 /* CSS Reset / Normalize */
+html {
+    box-sizing: border-box;
+}
 
-*,
-*::before,
-*::after{
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     border: 0;
@@ -11,7 +12,7 @@
     vertical-align: baseline;
     text-decoration: none;
     list-style: none;
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 /* HTML5 display-role reset for older browsers */

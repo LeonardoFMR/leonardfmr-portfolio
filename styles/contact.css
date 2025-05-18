@@ -16,7 +16,7 @@
     max-width: 60%;
   }
   
-  .formcontato__ {
+  .formcontato__info {
     display: flex;
     flex-direction: column;
     gap: 0.625rem; 
@@ -27,7 +27,7 @@
   
   .formcontato__title {
     font-size: 1.625rem;
-    color: var(--success);
+    color: var(--agua);
   }
   
   .formcontato__subtext {

@@ -16,12 +16,12 @@
     <main class="todo">
 
         <!-- Header  -->
-
         <header class="header">
             <div class="logo" id="inicio">
                 <img class="logo__img" src="assets/vector.png" alt="Ícono de estrellas">
                 <h3 class="logo__title">Leonardo Morales</h3>
             </div>
+
             <nav class="menu">
                 <ul class="menu__list">
                     <li class="menu__list-item"><a class="menu__item" href="#sobre-mi">About me</a></li>
@@ -29,10 +29,14 @@
                     <li class="menu__list-item"><a class="menu__item" href="#hobbies">Hobbies</a></li>
                     <li class="menu__list-item"><a class="menu__item" href="#formacion">Professional training</a></li>
                     <li class="menu__list-item"><a class="menu__item" href="#xp">Projects</a></li>
-                    <li class="menu__list-item"><a class="menu__item menu__item--contacto"
-                            href="#networks">leonardfmr@gmail.com</a></li>
                 </ul>
             </nav>
+
+            <address class="header__contacto">
+                <a href="mailto:leonardfmr@gmail.com" class="menu__item menu__item--contacto">
+                    leonardfmr@gmail.com
+                </a>
+            </address>
         </header>
 
 
@@ -41,28 +45,28 @@
 
         <section class="presentacion" id="presentacion">
             <div class="presentacion__contenedor">
-                <div class="presentacion__contenido">
-                    <img class="presentacion__img presentacion__img--desktop" src="assets/profile.png"
-                        alt="Foto de perfil">
+                <figure class="presentacion__contenido">
+                    <img class="presentacion__img" src="assets/profile.png" alt="Foto de perfil">
+
                     <div class="presentacion__texto">
-                        <img class="presentacion__img presentacion__img--mobile" src="assets/profile.png"
-                            alt="Foto de perfil">
-
-                        <h2 class="presentacion__bio">Hola, soy constructor de páginas web.</h2>
-                        <h3 class="presentacion__subsection">Comencé mi formación académica en la Universidad de
-                            Guadalajara,
-                            inicié este proyecto mediante Oracle ONE en Alura Latam.</h3>
-                        <h3 class="presentacion__subsection">Este portafolio muestra un poco de mis conocimientos.</h3>
-
-
+                        <figcaption class="presentacion__bio">Hola, soy constructor de páginas web.</figcaption>
+                        <h3 class="presentacion__subsection">
+                            Comencé mi formación académica en la Universidad de Guadalajara, inicié este proyecto
+                            mediante Oracle ONE en Alura Latam.
+                        </h3>
+                        <h3 class="presentacion__subsection">
+                            Este portafolio muestra un poco de mis conocimientos.
+                        </h3>
                     </div>
-                    <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="dark"
-                        data-type="VERTICAL" data-vanity="leonardofmr" data-version="v1"><a
-                            class="badge-base__link LI-simple-link"
+
+                    <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="small" data-theme="dark"
+                        data-type="HORIZONTAL" data-vanity="leonardofmr" data-version="v1">
+                        <a class="badge-base__link LI-simple-link"
                             href="https://mx.linkedin.com/in/leonardofmr?trk=profile-badge"
                             aria-label="Ver perfil de LinkedIn de Leonardo"></a>
                     </div>
-                </div>
+                </figure>
+
 
                 <ul class="presentacion__network" id="networks">
 
@@ -256,7 +260,8 @@
 
         <section class="experience" id="xp">
             <h2 class="experience__section__title">Projects:</h2>
-            <div class="experience__box">
+            
+            <article class="experience__box">
                 <img class="experience__img" src="assets/curso_de_react.png"
                     alt="Foto de la página del proyecto hecho con React">
                 <div class="experience__info">
@@ -272,9 +277,9 @@
                                     class="experience__button--demo" aria-label="Ver demo">Ver demo</button></a></span>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <div class="experience__box">
+            <article class="experience__box">
                 <img class="experience__img" src="assets/practicando_react.png"
                     alt="Foto de la página del proyecto hecho con React">
                 <div class="experience__info">
@@ -290,9 +295,9 @@
                                     class="experience__button--demo" aria-label="Ver demo">Ver demo</button></a></span>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <div class="experience__box">
+            <article class="experience__box">
                 <img class="experience__img" src="assets/encriptador.png"
                     alt="Foto de la página del proyecto Encriptador">
                 <div class="experience__info">
@@ -306,9 +311,9 @@
                                     class="experience__button--demo" aria-label="Ver demo">Ver demo</button></a></span>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <div class="experience__box">
+            <article class="experience__box">
                 <img class="experience__img" src="assets/flix.png" alt="Foto de la página del proyecto AluraFlix">
                 <div class="experience__info">
                     <h3 class="experience__title">Alura Challenge</h3>
@@ -323,7 +328,7 @@
                                     class="experience__button--demo" aria-label="Ver demo">Ver demo</button></a></span>
                     </div>
                 </div>
-            </div>
+            </article>
         </section>
 
 
@@ -334,7 +339,7 @@
                 <div class="formcontato--izq">
                     <img class="formcontato__img" src="assets/imagen_contacto.png">
                 </div>
-                <div class="formcontato__">
+                <div class="formcontato__info">
                     <h2 class="formcontato__title">Contacto</h2>
                     <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                     <h3 class="formcontato__text">Complete el siguiente formulario y me pondré en contacto con usted lo
@@ -366,14 +371,14 @@
         <script src="validacion.js"></script>
         <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     </main>
-
     <!-- Sección de Footer -->
-    <section class="footer">
+    <footer class="footer">
         <div class="footer__rodape">
             <p>Desarrollado por Leonardo Morales</p>
             <p>2025</p>
         </div>
-    </section>
+    </footer>
+
 </body>
 
 </html>
