@@ -35,4 +35,4 @@ El objetivo es mostrar habilidades técnicas y evidencias de aprendizaje mediant
 Este portafolio se actualizará progresivamente conforme avance en mi formación como desarrollador web.
 
 
-### Continue changing the remaining 3 articles
+### Continue changing the remaining 3 articles.
