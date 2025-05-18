@@ -59,7 +59,7 @@
   margin: 0.3125rem 0 0.1875rem 0.3125rem;
   display: flex;
   flex-direction: row;
-  background-color: aqua;
+  background-color: var(--agua);
   
   
 }

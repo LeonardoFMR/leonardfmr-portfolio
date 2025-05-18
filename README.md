@@ -33,3 +33,9 @@ El objetivo es mostrar habilidades técnicas y evidencias de aprendizaje mediant
 ## 📌 Nota
 
 Este portafolio se actualizará progresivamente conforme avance en mi formación como desarrollador web.
+
+
+### REvisar el main con chat
+### Responsividad footer
+### Responsividad contact
+### Responsividad profesional training

@@ -1,15 +1,15 @@
 .formcontato {
     display: flex;
     justify-content: center;
-    padding: 1.25rem; /* 20px */
+    padding: 1.25rem; 
   }
   
   .formcontato__formulario {
     max-width: 80%;
     display: flex;
     flex-direction: column;
-    gap: 0.3125rem; /* 5px */
-    padding: 0.3125rem; /* 5px */
+    gap: 0.3125rem; 
+    padding: 0.3125rem; 
   }
   
   .formulario {
@@ -19,75 +19,75 @@
   .formcontato__ {
     display: flex;
     flex-direction: column;
-    gap: 0.625rem; /* 10px */
-    padding: 0.3125rem; /* 5px */
+    gap: 0.625rem; 
+    padding: 0.3125rem; 
     width: 50%;
     flex-wrap: wrap;
   }
   
   .formcontato__title {
-    font-size: 1.625rem; /* 26px */
-    color: green;
+    font-size: 1.625rem;
+    color: var(--success);
   }
   
   .formcontato__subtext {
-    font-size: 1.375rem; /* 22px */
+    font-size: 1.375rem; 
     color: var(--deeppurple);
   }
   
   .formcontato__text {
-    font-size: 0.875rem; /* 14px */
-    color: blue;
+    font-size: 0.875rem; 
+    color: var(--strongblue);
   }
   
   .formcontato__input,
   .formcontato__textarea {
-    width: 14.375rem; /* 230px */
-    background-color: pink;
+    width: 14.375rem; 
+    background-color: var(--lightblue);
     text-align: center;
   }
   
   .formcontato__input {
-    border-radius: 1.25rem 0.625rem 0.9375rem 1.25rem; /* 20px 10px 15px 20px */
-    border: 3px solid transparent;
+    border-radius: 1.25rem 0.625rem 0.9375rem 1.25rem; 
+    border: 0.188rem solid transparent;
     opacity: 1;
   }
   
   .formcontato__textarea {
-    border-radius: 0.9375rem; /* 15px */
+    border-radius: 0.9375rem; 
   }
   
   .formcontato__botonEnviar {
-    height: 1.25rem; /* 20px */
-    width: 8.75rem; /* 140px */
-    background-color: yellow;
-    border-radius: 0.3125rem; /* 5px */
-    border: 0.075rem solid red;
+    height: 1.25rem; 
+    width: 8.75rem; 
+    background-color: var(--lightblue);
+    border-radius: 0.3125rem; 
+    border: 0.075rem solid var(--darkred);
   }
   
   /* RESPONSIVIDAD */
   /* Tablet */
-  @media (max-width: 64rem) { /* 1024px */
+  @media (max-width: 64rem) { 
     .badge-container {
       display: none;
     }
   
     .formcontato__title {
-      font-size: 1.375rem; /* 22px */
-      color: #031351;
+      font-size: 1.375rem; 
+      color: var(--heavyblue);
     }
   
     .formcontato__subtext {
-      font-size: 1.125rem; /* 18px */
-      color: green;
+      font-size: 1.125rem; 
+      color: var(--success);
     }
   
     .formcontato__text {
-      font-size: 0.625rem; /* 10px */
+      font-size: 0.625rem; 
       color: var(--deeppurple);
     }
   }
   
   /* Mobile */
-  @media (max-width: 26.5625rem) { /* 425px */ }
+  @media (max-width: 26.5625rem) {  }
   

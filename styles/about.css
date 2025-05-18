@@ -1,5 +1,5 @@
 section.about {
-  background: #202324;
+  background: var(--darkgray);
   padding: 1.875rem;
   gap: 0.625rem;
 }
@@ -9,14 +9,9 @@ section.about {
   font-size: 1.75rem;
   font-weight: 400;
   text-align: left;
-  margin: 0.5em 0 0.5em 1em;
-}
-
-h1 {
+  margin: 0.5em 0 0.5em 1rem;
   color: var(--lightblue);
-  /* text-shadow: 0 0 0.4rem #FFC080, 0 0 0.4rem #FF69B4;  */
   text-shadow: 0.1rem 0.1rem 0.02rem var(--deeppurple), 0.1rem 0.1rem .2rem var(--agua);
-
 }
 
 .about__paragraph {
@@ -31,15 +26,8 @@ h1 {
   color: var(--agua);
 }
 
-.firma {
-  margin: 0.5em;
-  display: flex;
-  justify-self: center;
-}
-
 /* Tablet */
 @media (max-width: 64rem) {
-
   .about__title {
     font-size: 1rem;
   }

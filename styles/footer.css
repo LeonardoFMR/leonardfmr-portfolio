@@ -1,22 +1,19 @@
-
-.footer__rodape{
-    text-align: center;
-    padding: 1rem;
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 1.1rem 10rem;
+    width: 100%;
+    margin-top: 0.000625rem;
+    background: linear-gradient(var(--black), var(--black)), var(--strongblue);
+    background-color: var(--strongblue);
+    box-shadow: 0 0.3125rem 1.8125rem 0 var(--strongblue);
+    border-top: 0.0625rem solid var(--strongblue);
 }
 
-
-
-
-.footer{
-    display: flex;
-
-    flex-direction: column;
-    padding: 1.1em 10em;
-    width: 100%;
-    bottom: 0;
-    box-shadow: 0px 5px 29px 0px var(--strongblue);
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), rgba(34, 113, 209, 0.7);
-    background-color: rgba(34, 113, 209, 0.7);
-    border-top:  var(--strongblue) 1px solid;
-    margin-top: 0.001px;
+.footer__rodape {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    color: var(--lightblue);
+    font-family: "Raleway", sans-serif;
 }

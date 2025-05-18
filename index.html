@@ -9,29 +9,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
-    <title>Mi Portafolio</title>
+    <title>Leonardo Morales</title>
 </head>
 
 <body>
-    <div class="todo">
+    <main class="todo">
+
         <!-- Header  -->
-        <header>
+
+        <header class="header">
             <div class="logo" id="inicio">
                 <img class="logo__img" src="assets/vector.png" alt="Ícono de estrellas">
                 <h3 class="logo__title">Leonardo Morales</h3>
             </div>
-            <nav class="menu__list">
-                <a class="menu__item" href="#sobre-mi">About me</a>
-                <a class="menu__item" href="#skills">Skills</a>
-                <a class="menu__item" href="#hobbies">Hobbies</a>
-                <a class="menu__item" href="#formacion">Professional training</a>
-                <a class="menu__item" href="#xp">Projects</a>
-                <a class="menu__item menu__item--contacto" href="#networks">leonardfmr@gmail.com</a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__list-item"><a class="menu__item" href="#sobre-mi">About me</a></li>
+                    <li class="menu__list-item"><a class="menu__item" href="#skills">Skills</a></li>
+                    <li class="menu__list-item"><a class="menu__item" href="#hobbies">Hobbies</a></li>
+                    <li class="menu__list-item"><a class="menu__item" href="#formacion">Professional training</a></li>
+                    <li class="menu__list-item"><a class="menu__item" href="#xp">Projects</a></li>
+                    <li class="menu__list-item"><a class="menu__item menu__item--contacto"
+                            href="#networks">leonardfmr@gmail.com</a></li>
+                </ul>
             </nav>
         </header>
 
 
+
         <!-- Presentacion -->
+
         <section class="presentacion" id="presentacion">
             <div class="presentacion__contenedor">
                 <div class="presentacion__contenido">
@@ -96,6 +103,7 @@
         </section>
 
         <!-- About me-->
+
         <section class="about" id="sobre-mi">
             <div class="about__container">
                 <h1 class="about__title">About me</h1>
@@ -111,47 +119,54 @@
         </section>
 
         <!-- Sección de Skills -->
+
         <section class="skills" id="skills">
             <h3 class="skills__title">Skills de programación:</h3>
             <div class="skills__line">
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__item"><img class="skills__item-img" src="assets/html.png" alt="Ícono HTML5"></li>
+                        <li class="skills__item"><img class="skills__item-img" src="assets/html.png" alt="Ícono HTML5">
+                        </li>
                         <li class="skills__name"> HTML 5</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__item"> <img class="skills__item-img" src="assets/js_icon.png" alt="Ícono JavaScript"></li>
+                        <li class="skills__item"> <img class="skills__item-img" src="assets/js_icon.png"
+                                alt="Ícono JavaScript"></li>
                         <li class="skills__name">Javascript</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__item"> <img class="skills__item-img" src="assets/css_icon.png" alt="Ícono CSS"> </li>
+                        <li class="skills__item"> <img class="skills__item-img" src="assets/css_icon.png"
+                                alt="Ícono CSS"> </li>
                         <li class="skills__name">CSS</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__item"> <img class="skills__item-img" src="assets/react_icon.png" alt="Ícono React"> </li>
+                        <li class="skills__item"> <img class="skills__item-img" src="assets/react_icon.png"
+                                alt="Ícono React"> </li>
                         <li class="skills__name">React</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__item"> <img class="skills__item-img" src="assets/sql.png" alt="Ícono SQL"> </li>
+                        <li class="skills__item"> <img class="skills__item-img" src="assets/sql.png" alt="Ícono SQL">
+                        </li>
                         <li class="skills__name">SQL</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__item"> <img class="skills__item-img" src="assets/typescript.png" alt="Ícono TypeSript"> </li>
+                        <li class="skills__item"> <img class="skills__item-img" src="assets/typescript.png"
+                                alt="Ícono TypeSript"> </li>
                         <li class="skills__name">TypeScript</li>
                     </ul>
                 </div>
@@ -159,26 +174,30 @@
         </section>
 
         <!-- Sección de Hobbies -->
+
         <section class="hobbies" id="hobbies">
             <h3 class="hobbies__title">Hobbies</h3>
             <div class="hobbies__line">
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"><img src="assets/bike_icon.png" alt="Ícono bicicleta"></li>
+                        <li class="hobbies__item"><img class="hobbies__item-img" src="assets/bike_icon.png"
+                                alt="Ícono bicicleta"></li>
                         <li class="hobbies__name">Ciclismo urbano</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"> <img src="assets/guitar_icon.png" alt="Ícono guitarrita"></li>
+                        <li class="hobbies__item"> <img class="hobbies__item-img" src="assets/guitar_icon.png"
+                                alt="Ícono guitarrita"></li>
                         <li class="hobbies__name">Tocar guitarra</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"> <img src="assets/auriculares.png" alt="Silueta escuchando música">
+                        <li class="hobbies__item"> <img class="hobbies__item-img" src="assets/auriculares.png"
+                                alt="Silueta escuchando música">
                         </li>
                         <li class="hobbies__name">Oir música</li>
                     </ul>
@@ -186,14 +205,16 @@
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"><img src="assets/tv_icon.png" alt="Ícono pantalla de TV"></li>
+                        <li class="hobbies__item"><img class="hobbies__item-img" src="assets/tv_icon.png"
+                                alt="Ícono pantalla de TV"></li>
                         <li class="hobbies__name">Ver séries</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"> <img src="assets/forkspoon_icon.png" alt="Ícono tenedor y cuchara">
+                        <li class="hobbies__item"> <img class="hobbies__item-img" src="assets/forkspoon_icon.png"
+                                alt="Ícono tenedor y cuchara">
                         </li>
                         <li class="hobbies__name">Cocinar</li>
                     </ul>
@@ -201,7 +222,8 @@
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"> <img src="assets/clash_icon.png" alt="Ícono del Juego Clash Royale">
+                        <li class="hobbies__item"> <img class="hobbies__item-img" src="assets/clash_icon.png"
+                                alt="Ícono del Juego Clash Royale">
                         </li>
                         <li class="hobbies__name">Clash Royale</li>
                     </ul>
@@ -210,18 +232,19 @@
         </section>
 
         <!-- Sección académica -->
+
         <section class="academic" id="formacion">
             <h2 class="academic__title">Professional training</h2>
             <div class="academic__courses">
-                <div class="academic__courses__box">
-                    <ul class="academic__courses__list">
-                        <li class="academic__courses__item__img"><img src="assets/alura_logo.png" alt="Logo de Alura">
+                <div class="academic__box">
+                    <ul class="academic__list">
+                        <li class="academic__item">
+                            <img class="academic__item-img" src="assets/alura_logo.png" alt="Logo de Alura">
                         </li>
-
-                        <li class="academic__courses__item__title">
+                        <li class="academic__item-title">
                             <h4>Formación en UX Design</h4>
                         </li>
-                        <li class="academic__courses__item__subtitle">
+                        <li class="academic__item-subtitle">
                             <p>2024 - Alura</p>
                         </li>
                     </ul>
@@ -230,22 +253,23 @@
         </section>
 
         <!-- Sección de Experiencia Profesional/Proyectos-->
+
         <section class="experience" id="xp">
             <h2 class="experience__section__title">Projects:</h2>
             <div class="experience__box">
                 <img class="experience__img" src="assets/curso_de_react.png"
                     alt="Foto de la página del proyecto hecho con React">
                 <div class="experience__info">
-                    <h2 class="experience__title">React desarrollando con JavaScript</h2>
-                    <h3 class="experience__text">Producto: Organizando personas y equipos</h3>
+                    <h3 class="experience__title">React desarrollando con JavaScript</h3>
+                    <h4 class="experience__text">Producto: Organizando personas y equipos</h4>
                     <div class="experience__description">
                         <span class="experience__repo"><a
                                 href="https://github.com/LeonardoFMR/Curso-de-React-desarrollando-con-JavaScript.git"><button
-                                    class="experiencia__botao--repo"
+                                    class="experience__button--repositorio"
                                     aria-label="Repositorio">Repositorio</button></a></span>
                         <span class="experience__demo"><a
                                 href="https://curso-de-react-desarrollando-con-java-script.vercel.app/"><button
-                                    class="experience__botao--demo" aria-label="Ver demo">Ver demo</button></a></span>
+                                    class="experience__button--demo" aria-label="Ver demo">Ver demo</button></a></span>
                     </div>
                 </div>
             </div>
@@ -254,16 +278,16 @@
                 <img class="experience__img" src="assets/practicando_react.png"
                     alt="Foto de la página del proyecto hecho con React">
                 <div class="experience__info">
-                    <h2 class="experience__title">React practicando con JavaScript</h2>
-                    <h3 class="experience__text">Producto: Alura Cinema creado con React</h3>
+                    <h3 class="experience__title">React practicando con JavaScript</h3>
+                    <h4 class="experience__text">Producto: Alura Cinema creado con React</h4>
                     <div class="experience__description">
                         <span class="experience__repo"><a
                                 href="https://github.com/LeonardoFMR/Curso_de_React_practicando_React_con_JS.git"><button
-                                    class="experiencia__botao--repo"
+                                    class="experience__button--repositorio"
                                     aria-label="Repositorio">Repositorio</button></a></span>
                         <span class="experience__demo"><a
                                 href="https://curso-de-react-practicando-react-con-js.vercel.app/"><button
-                                    class="experience__botao--demo" aria-label="Ver demo">Ver demo</button></a></span>
+                                    class="experience__button--demo" aria-label="Ver demo">Ver demo</button></a></span>
                     </div>
                 </div>
             </div>
@@ -272,14 +296,14 @@
                 <img class="experience__img" src="assets/encriptador.png"
                     alt="Foto de la página del proyecto Encriptador">
                 <div class="experience__info">
-                    <h2 class="experience__title">Oracle Challenge</h2>
-                    <h3 class="experience__text">Producto: Encriptador de texto</h3>
+                    <h3 class="experience__title">Oracle Challenge</h3>
+                    <h4 class="experience__text">Producto: Encriptador de texto</h4>
                     <div class="experience__description">
                         <span class="experience__repo"><a href="https://github.com/LeonardoFMR/Encriptador.git"><button
-                                    class="experiencia__botao--repo"
+                                    class="experience__button--repositorio"
                                     aria-label="Repositorio">Repositorio</button></a></span>
                         <span class="experience__demo"><a href="https://encriptador-gilt.vercel.app/"><button
-                                    class="experience__botao--demo" aria-label="Ver demo">Ver demo</button></a></span>
+                                    class="experience__button--demo" aria-label="Ver demo">Ver demo</button></a></span>
                     </div>
                 </div>
             </div>
@@ -287,16 +311,16 @@
             <div class="experience__box">
                 <img class="experience__img" src="assets/flix.png" alt="Foto de la página del proyecto AluraFlix">
                 <div class="experience__info">
-                    <h2 class="experience__title">Alura Challenge</h2>
-                    <h3 class="experience__text">Producto: Alura Flix con React</h3>
+                    <h3 class="experience__title">Alura Challenge</h3>
+                    <h4 class="experience__text">Producto: Alura Flix con React</h4>
                     <div class="experience__description">
                         <span class="experience__repo"><a
                                 href="https://github.com/LeonardoFMR/Curso_de_Practicando_React_Challenge_Aluraflix.git"><button
-                                    class="experiencia__botao--repo"
+                                    class="experience__button--repositorio"
                                     aria-label="Repositorio">Repositorio</button></a></span>
                         <span class="experience__demo"><a
                                 href="https://curso-de-practicando-react-challenge-aluraflix.vercel.app/"><button
-                                    class="experience__botao--demo" aria-label="Ver demo">Ver demo</button></a></span>
+                                    class="experience__button--demo" aria-label="Ver demo">Ver demo</button></a></span>
                     </div>
                 </div>
             </div>
@@ -341,14 +365,15 @@
         <!-- Script -->
         <script src="validacion.js"></script>
         <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-</body>
+    </main>
 
-<!-- Sección de Footer -->
-<section class="footer">
-    <div class="footer__rodape">
-        <p>Desarrollado por Leonardo Morales</p>
-        <p>2025</p>
-    </div>
-</section>
+    <!-- Sección de Footer -->
+    <section class="footer">
+        <div class="footer__rodape">
+            <p>Desarrollado por Leonardo Morales</p>
+            <p>2025</p>
+        </div>
+    </section>
+</body>
 
 </html>

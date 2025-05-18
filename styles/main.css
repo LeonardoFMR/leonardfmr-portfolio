@@ -14,19 +14,20 @@
 
 @import url("experience.css");
 
-@import url("formcontato.css");
-
 @import url("footer.css");
 
 @import url("contact.css");
 
+
 body {
     background-color: var(--background);
-    line-height: 1;
-    font-family: "Raleway";
-    color: #F5F5F5;
+    line-height: 1.5;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    color: var(--text-light);
     overflow-x: hidden;
 }
+
 
 main {
     display: flex;
@@ -34,12 +35,24 @@ main {
     align-items: center;
 }
 
-:root { 
-    
-    --deeppurple: #4b0082; 
-    --lightblue: rgb(102, 184, 255);
+:root {
+    /* Backgrounds */
+    --background: #050f13;
+    --darkred: #2a0707;
+    --darkgray: #202324;
+    --black: rgba(0, 0, 0, 0.9);
+
+    /* Primary Palette */
+    --deeppurple: #4b0082;
     --strongblue: #2271D1;
     --heavyblue: #031351;
     --agua: aqua;
-    --background: #050f13;
+
+    /* Text Colors */
+    --text-light: #F5F5F5;
+    --lightblue: rgb(102, 184, 255);
+
+    /* UI Feedback */
+    --success: #1fad68;
+    --neutral: white;
 }
