@@ -54,4 +54,4 @@ cd tu-repositorio
 
 
 
-### Continue changing the remaining 3 articles.
+### Add white space to the header elements and then continue reviewing the about section.ñ
