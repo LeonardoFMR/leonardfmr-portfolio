@@ -39,7 +39,7 @@ header {
 .menu__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5375rem;
+  gap: 1.25rem;
   max-width: 99%;
   padding: 0.9375rem;
   margin-left: 0.025rem;
@@ -58,7 +58,7 @@ header {
   font-size: 0.75rem;
 }
 
-.menu__item--contacto {
+.menu__item--contact {
   color: var(--strongblue);
   font-weight: bold;
   font-size: 0.75rem;
@@ -77,14 +77,14 @@ header {
   background-color: var(--deeppurple);
 }
 
-.header__contacto {
+.header__contact {
   display: flex;
   align-items: center;
   padding: 0.625rem 1rem;
   font-style: normal; /* Evita cursiva predeterminada de <address> */
 }
 
-.header__contacto a {
+.header__contact a {
   color: var(--strongblue);
   font-weight: bold;
   text-decoration: none;
@@ -101,7 +101,7 @@ header {
 @media (min-width: 48rem) {
   .menu__list {
     flex-wrap: wrap;
-    gap: 0.875rem;
+    gap: 2.25rem;
   }
 
   .logo {
@@ -110,7 +110,7 @@ header {
   }
 
   .menu__item,
-  .menu__item--contacto {
+  .menu__item--contact {
     font-size: 0.875rem;
   }
 }
@@ -124,7 +124,7 @@ header {
   }
 
   .menu__list {
-    gap: 2.25rem;
+    gap: 3.25rem;
     max-width: 70%;
     flex-wrap: nowrap;
     margin-left: 0;
@@ -132,7 +132,7 @@ header {
   }
 
   .menu__item,
-  .menu__item--contacto {
+  .menu__item--contact {
     font-size: 1rem;
   }
 }

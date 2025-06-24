@@ -1,10 +1,10 @@
-.formcontato {
+.contact-form {
     display: flex;
     justify-content: center;
     padding: 1.25rem; 
   }
   
-  .formcontato__formulario {
+  .contact-form__form-container {
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -12,11 +12,11 @@
     padding: 0.3125rem; 
   }
   
-  .formulario {
+  .form {
     max-width: 60%;
   }
   
-  .formcontato__info {
+  .contact-form__info {
     display: flex;
     flex-direction: column;
     gap: 0.625rem; 
@@ -25,39 +25,39 @@
     flex-wrap: wrap;
   }
   
-  .formcontato__title {
+  .contact-form__title {
     font-size: 1.625rem;
     color: var(--agua);
   }
   
-  .formcontato__subtext {
+  .contact-form__subtext {
     font-size: 1.375rem; 
     color: var(--deeppurple);
   }
   
-  .formcontato__text {
+  .contact-form__text {
     font-size: 0.875rem; 
     color: var(--strongblue);
   }
   
-  .formcontato__input,
-  .formcontato__textarea {
+  .contact-form__input,
+  .contact-form__textarea {
     width: 14.375rem; 
     background-color: var(--lightblue);
     text-align: center;
   }
   
-  .formcontato__input {
+  .contact-form__input {
     border-radius: 1.25rem 0.625rem 0.9375rem 1.25rem; 
     border: 0.188rem solid transparent;
     opacity: 1;
   }
   
-  .formcontato__textarea {
+  .contact-form__textarea {
     border-radius: 0.9375rem; 
   }
   
-  .formcontato__botonEnviar {
+  .contact-form__send-button {
     height: 1.25rem; 
     width: 8.75rem; 
     background-color: var(--lightblue);
@@ -72,17 +72,17 @@
       display: none;
     }
   
-    .formcontato__title {
+    .contact-form__title {
       font-size: 1.375rem; 
       color: var(--heavyblue);
     }
   
-    .formcontato__subtext {
+    .contact-form__subtext {
       font-size: 1.125rem; 
       color: var(--success);
     }
   
-    .formcontato__text {
+    .contact-form__text {
       font-size: 0.625rem; 
       color: var(--deeppurple);
     }

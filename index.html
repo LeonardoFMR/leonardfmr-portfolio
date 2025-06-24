@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -13,123 +13,152 @@
 </head>
 
 <body>
-    <main class="todo">
+    <main class="main-content">
 
-        <!-- Header  -->
+        <!-- Header START-->
         <header class="header">
-            <div class="logo" id="inicio">
-                <img class="logo__img" src="assets/vector.png" alt="Ícono de estrellas">
+            <div class="logo" id="start">
+                <img class="logo__img" src="assets/vector.png" alt="Star icon">
                 <h3 class="logo__title">Leonardo Morales</h3>
             </div>
 
             <nav class="menu">
                 <ul class="menu__list">
-                    <li class="menu__list-item"><a class="menu__item" href="#sobre-mi">About me</a></li>
+                    <li class="menu__list-item"><a class="menu__item" href="#about-me">About me</a></li>
                     <li class="menu__list-item"><a class="menu__item" href="#skills">Skills</a></li>
                     <li class="menu__list-item"><a class="menu__item" href="#hobbies">Hobbies</a></li>
-                    <li class="menu__list-item"><a class="menu__item" href="#formacion">Professional training</a></li>
+                    <li class="menu__list-item"><a class="menu__item" href="#training">Training</a>
+                    </li>
                     <li class="menu__list-item"><a class="menu__item" href="#xp">Projects</a></li>
                 </ul>
             </nav>
 
-            <address class="header__contacto">
-                <a href="mailto:leonardfmr@gmail.com" class="menu__item menu__item--contacto">
+            <address class="header__contact">
+                <a href="mailto:leonardfmr@gmail.com" class="menu__item menu__item--contact">
                     leonardfmr@gmail.com
                 </a>
             </address>
         </header>
+        <!-- Header END -->
 
 
 
-        <!-- Presentacion -->
+        <!-- Presentation START -->
+        <section class="presentation" id="presentation">
+            <div class="presentation__container">
+                <div class="presentation__content">
+                    <figure class="presentation__profile">
+                        <img class="presentation__img" src="assets/profile.png" alt="Profile picture">
+                        <figcaption class="presentation__bio">Hi, I'm a website builder.</figcaption>
+                    </figure>
 
-        <section class="presentacion" id="presentacion">
-            <div class="presentacion__contenedor">
-                <figure class="presentacion__contenido">
-                    <img class="presentacion__img" src="assets/profile.png" alt="Foto de perfil">
-
-                    <div class="presentacion__texto">
-                        <figcaption class="presentacion__bio">Hola, soy constructor de páginas web.</figcaption>
-                        <h3 class="presentacion__subsection">
-                            Comencé mi formación académica en la Universidad de Guadalajara, inicié este proyecto
-                            mediante Oracle ONE en Alura Latam.
-                        </h3>
-                        <h3 class="presentacion__subsection">
-                            Este portafolio muestra un poco de mis conocimientos.
-                        </h3>
+                    <div class="presentation__texto">
+                        <p class="presentation__subsection">
+                            I began my academic training at the <strong>University of Guadalajara</strong>, I started
+                            this project through Oracle ONE in <strong>Alura Latam </strong>.
+                        </p>
+                        <p class="presentation__subsection">
+                            This portfolio shows a little of my knowledge.
+                        </p>
                     </div>
 
-                    <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="small" data-theme="dark"
-                        data-type="HORIZONTAL" data-vanity="leonardofmr" data-version="v1">
-                        <a class="badge-base__link LI-simple-link"
-                            href="https://mx.linkedin.com/in/leonardofmr?trk=profile-badge"
-                            aria-label="Ver perfil de LinkedIn de Leonardo"></a>
-                    </div>
-                </figure>
 
+                </div>
 
-                <ul class="presentacion__network" id="networks">
+                <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="small" data-theme="dark"
+                    data-type="HORIZONTAL" data-vanity="leonardofmr" data-version="v1">
+                    <a class="badge-base__link LI-simple-link"
+                        href="https://mx.linkedin.com/in/leonardofmr?trk=profile-badge"
+                        aria-label="View Leonardo's LinkedIn profile"></a>
+                </div>
 
-                    <li class="presentacion__network-item">
+                <ul class="presentation__network" id="networks">
+
+                    <li class="presentation__network-item">
                         <a href="https://github.com/LeonardoFMR" target="_blank"
-                            aria-label="Visita mi perfil de Github">
+                            aria-label="View Leonardo's Github profile">
                             Github
-                            <img class="presentacion__network-item__img" src="assets/github.png" alt="Ícono Github">
+                            <img class="presentation__network-item__img" src="assets/github.png" alt="Github icon">
                         </a>
                     </li>
 
-                    <li class="presentacion__network-item">
+                    <li class="presentation__network-item">
                         <a href="https://mx.linkedin.com/in/leonardofmr?trk=profile-badge" target="_blank"
-                            aria-label="Visita mi perfil de Linkedin">
+                            aria-label="View Leonardo's LinkedIn profile">
                             Linkedin
-                            <img class="presentacion__network-item__img" src="assets/linkedin.png" alt="Ícono Linkedin">
+                            <img class="presentation__network-item__img" src="assets/linkedin.png" alt="Linkedin icon">
                         </a>
                     </li>
 
-                    <li class="presentacion__network-item">
+                    <li class="presentation__network-item">
                         <a href="https://www.instagram.com/leonard_warhol/" target="_blank"
-                            aria-label="Visita mi perfil de Instagram">
+                            aria-label="View Leonardo's Instagram profile">
                             Instagram
-                            <img class="presentacion__network-item__img" src="assets/instagram.png"
-                                alt="Ícono Instagram">
+                            <img class="presentation__network-item__img" src="assets/instagram.png"
+                                alt="Instagram icon">
                         </a>
                     </li>
 
-                    <li class="presentacion__network-item">
+                    <li class="presentation__network-item">
                         <a href="https://docs.google.com/document/d/1kagCqMqgfvF4eUgcKbhbSEmHxavEga8t/edit?usp=sharing&ouid=115205270928286638522&rtpof=true&sd=true"
-                            target="_blank" aria-label="Descarga mi currículum">
-                            Currículo
-                            <img class="presentacion__network-item__img" src="assets/pdf.png" alt="Ícono de un PDF">
+                            target="_blank" aria-label="Download Leonardo's resume">
+                            Resume
+                            <img class="presentation__network-item__img" src="assets/pdf.png" alt="PDF icon">
                         </a>
                     </li>
                 </ul>
             </div>
         </section>
+        <!-- Presentation END -->
 
-        <!-- About me-->
 
-        <section class="about" id="sobre-mi">
-            <div class="about__container">
-                <h1 class="about__title">About me</h1>
-                <p class="about__paragraph about__paragraph--destacado">Programador en proceso. </p>
-                <p class="about__paragraph">A través de un aprendizaje autogestivo constante y vigente he adquirido las
-                    habilidades básicas de la programación.</p>
-                <p class="about__paragraph">Durante los últimos años he actualizado y formalizado mis conocimientos
-                    mediante cursos digitales emitidos mediante plataformas como Alura LATAM. </p>
-                <p class="about__paragraph">Espero este 2025 integrarme profesionalmente a resolver problemas digitales.
-                </p>
+        <!-- About me START -->
+        <section id="about-me-training" class="about-me-training">
 
-            </div>
+            <section class="about" id="about-me">
+                <div class="about__container">
+                    <h2 class="about__title text-lg" lang="en">About me</h2>
+                    <p class="about__paragraph about__paragraph--destacado text-sm">Programmer in progress. </p>
+                    <p class="about__paragraph text-sm">Through ongoing self-directed learning, I have acquired basic
+                        programming skills.</p>
+                    <p class="about__paragraph">Over the past few years, I have updated and formalized my knowledge
+                        through
+                        digital courses offered through platforms such as <mark>Alura LATAM</mark>.</p>
+                    <p class="about__paragraph">I hope to become a professional in solving digital problems by 2025.
+                    </p>
+
+                </div>
+            </section>
+
+            <section class="training" id="training">
+                <h2 class="training__title text-lg">Training</h2>
+                <div class="training__courses">
+                    <div class="training__box">
+                        <ul class="training__list">
+                            <li class="training__item">
+                                <img class="training__item-img" src="assets/alura_latam_logo.jpg" alt="Alura logo">
+                            </li>
+                            <li class="training__item-title text-md">
+                                <h4>UX Design Training</h4>
+                            </li>
+                            <li class="training__item-subtitle text-sm">
+                                <p><time datetime="2024">2024</time> - Alura</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </section>
 
-        <!-- Sección de Skills -->
+        <!-- About me END -->
 
+        <!-- Section Skills START -->
         <section class="skills" id="skills">
-            <h3 class="skills__title">Skills de programación:</h3>
+            <h3 class="skills__title">Programming skills</h3>
             <div class="skills__line">
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__item"><img class="skills__item-img" src="assets/html.png" alt="Ícono HTML5">
+                        <li class="skills__item"><img class="skills__item-img" src="assets/html.png" alt="HTML5 icon">
                         </li>
                         <li class="skills__name"> HTML 5</li>
                     </ul>
@@ -138,7 +167,7 @@
                 <div class="skills__box">
                     <ul>
                         <li class="skills__item"> <img class="skills__item-img" src="assets/js_icon.png"
-                                alt="Ícono JavaScript"></li>
+                                alt="JavaScript icon"></li>
                         <li class="skills__name">Javascript</li>
                     </ul>
                 </div>
@@ -146,7 +175,7 @@
                 <div class="skills__box">
                     <ul>
                         <li class="skills__item"> <img class="skills__item-img" src="assets/css_icon.png"
-                                alt="Ícono CSS"> </li>
+                                alt="CSS icon"> </li>
                         <li class="skills__name">CSS</li>
                     </ul>
                 </div>
@@ -154,14 +183,14 @@
                 <div class="skills__box">
                     <ul>
                         <li class="skills__item"> <img class="skills__item-img" src="assets/react_icon.png"
-                                alt="Ícono React"> </li>
+                                alt="React icon"> </li>
                         <li class="skills__name">React</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__item"> <img class="skills__item-img" src="assets/sql.png" alt="Ícono SQL">
+                        <li class="skills__item"> <img class="skills__item-img" src="assets/sql.png" alt="SQL icon">
                         </li>
                         <li class="skills__name">SQL</li>
                     </ul>
@@ -170,111 +199,99 @@
                 <div class="skills__box">
                     <ul>
                         <li class="skills__item"> <img class="skills__item-img" src="assets/typescript.png"
-                                alt="Ícono TypeSript"> </li>
+                                alt="TypeSript icon"> </li>
                         <li class="skills__name">TypeScript</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__item"> <img class="skills__item-img" src="assets/icon_boostrap.png"
+                                alt="Boostrap icon"> </li>
+                        <li class="skills__name">Boostrap</li>
                     </ul>
                 </div>
             </div>
         </section>
+        <!-- Section Skills END -->
 
-        <!-- Sección de Hobbies -->
 
+        <!-- Section Hobbies START -->
         <section class="hobbies" id="hobbies">
             <h3 class="hobbies__title">Hobbies</h3>
             <div class="hobbies__line">
                 <div class="hobbies__box">
                     <ul>
                         <li class="hobbies__item"><img class="hobbies__item-img" src="assets/bike_icon.png"
-                                alt="Ícono bicicleta"></li>
-                        <li class="hobbies__name">Ciclismo urbano</li>
+                                alt="Bicycle icon"></li>
+                        <li class="hobbies__name">Urban cycling</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
                         <li class="hobbies__item"> <img class="hobbies__item-img" src="assets/guitar_icon.png"
-                                alt="Ícono guitarrita"></li>
-                        <li class="hobbies__name">Tocar guitarra</li>
+                                alt="Guitar icon"></li>
+                        <li class="hobbies__name">Play guitar</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
                         <li class="hobbies__item"> <img class="hobbies__item-img" src="assets/auriculares.png"
-                                alt="Silueta escuchando música">
+                                alt="Silhouette listening to music icon">
                         </li>
-                        <li class="hobbies__name">Oir música</li>
+                        <li class="hobbies__name">Listen to music</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__item"><img class="hobbies__item-img" src="assets/tv_icon.png"
-                                alt="Ícono pantalla de TV"></li>
-                        <li class="hobbies__name">Ver séries</li>
+                        <li class="hobbies__item"><img class="hobbies__item-img" src="assets/tv_icon.png" alt="TV icon">
+                        </li>
+                        <li class="hobbies__name">Watch entertainment</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
                         <li class="hobbies__item"> <img class="hobbies__item-img" src="assets/forkspoon_icon.png"
-                                alt="Ícono tenedor y cuchara">
+                                alt="Fork and spoon icon">
                         </li>
-                        <li class="hobbies__name">Cocinar</li>
+                        <li class="hobbies__name">Cook</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
                         <li class="hobbies__item"> <img class="hobbies__item-img" src="assets/clash_icon.png"
-                                alt="Ícono del Juego Clash Royale">
+                                alt="Game Clash Royale icon">
                         </li>
                         <li class="hobbies__name">Clash Royale</li>
                     </ul>
                 </div>
             </div>
         </section>
+        <!-- Section Hobbies END-->
 
-        <!-- Sección académica -->
-
-        <section class="academic" id="formacion">
-            <h2 class="academic__title">Professional training</h2>
-            <div class="academic__courses">
-                <div class="academic__box">
-                    <ul class="academic__list">
-                        <li class="academic__item">
-                            <img class="academic__item-img" src="assets/alura_logo.png" alt="Logo de Alura">
-                        </li>
-                        <li class="academic__item-title">
-                            <h4>Formación en UX Design</h4>
-                        </li>
-                        <li class="academic__item-subtitle">
-                            <p>2024 - Alura</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Sección de Experiencia Profesional/Proyectos-->
-
+        <!-- Section Projects START -->
         <section class="experience" id="xp">
             <h2 class="experience__section__title">Projects:</h2>
 
             <article class="experience__box">
                 <img class="experience__img" src="assets/curso_de_react.png"
-                    alt="Foto de la página del proyecto hecho con React">
+                    alt="Screenshot of the project page made with React">
                 <div class="experience__info">
-                    <h3 class="experience__title">React desarrollando con JavaScript</h3>
-                    <h4 class="experience__text">Producto: Organizando personas y equipos</h4>
+                    <h3 class="experience__title">React developed with JavaScript</h3>
+                    <h4 class="experience__text">Product: "Organizing people and teams"</h4>
                     <div class="experience__description">
                         <a href="https://github.com/LeonardoFMR/Curso-de-React-desarrollando-con-JavaScript.git"
-                            class="experience__button--repositorio" target="_blank" aria-label="Repositorio">
-                            Repositorio
+                            class="experience__button--repository" target="_blank" aria-label="Repository">
+                            Repository
                         </a>
                         <a href="https://curso-de-react-desarrollando-con-java-script.vercel.app/"
-                            class="experience__button--demo" target="_blank" aria-label="Ver demo">
-                            Ver demo
+                            class="experience__button--demo" target="_blank" aria-label="Watch demo">
+                            Watch demo
                         </a>
                     </div>
                 </div>
@@ -282,18 +299,18 @@
 
             <article class="experience__box">
                 <img class="experience__img" src="assets/practicando_react.png"
-                    alt="Foto de la página del proyecto hecho con React">
+                    alt="Screenshot of the project page made with React">
                 <div class="experience__info">
-                    <h3 class="experience__title">React practicando con JavaScript</h3>
-                    <h4 class="experience__text">Producto: Alura Cinema creado con React</h4>
+                    <h3 class="experience__title">React practicing with JavaScript</h3>
+                    <h4 class="experience__text">Product: "Alura Cinema" created with React</h4>
                     <div class="experience__description">
                         <a href="https://github.com/LeonardoFMR/Curso_de_React_practicando_React_con_JS.git"
-                            class="experience__button--repositorio" target="_blank" aria-label="Repositorio">
-                            Repositorio
+                            class="experience__button--repository" target="_blank" aria-label="Repository">
+                            Repository
                         </a>
                         <a href="https://curso-de-react-practicando-react-con-js.vercel.app/"
-                            class="experience__button--demo" target="_blank" aria-label="Ver demo">
-                            Ver demo
+                            class="experience__button--demo" target="_blank" aria-label="Watch demo">
+                            Watch demo
                         </a>
                     </div>
                 </div>
@@ -301,60 +318,61 @@
 
             <article class="experience__box">
                 <img class="experience__img" src="assets/encriptador.png"
-                    alt="Foto de la página del proyecto Encriptador">
+                    alt="Screenshot from the Encryptor project page">
                 <div class="experience__info">
                     <h3 class="experience__title">Oracle Challenge</h3>
-                    <h4 class="experience__text">Producto: Encriptador de texto</h4>
+                    <h4 class="experience__text">Product: "Text encryptor"</h4>
                     <div class="experience__description">
-                        <a href="https://github.com/LeonardoFMR/Encriptador.git" class="experience__button--repositorio"
-                            aria-label="Repositorio">Repositorio</a>
+                        <a href="https://github.com/LeonardoFMR/Encriptador.git" class="experience__button--repository"
+                            aria-label="Repository">Repository</a>
                         <a href="https://encriptador-gilt.vercel.app/" class="experience__button--demo" target="_blank"
-                            aria-label="Ver demo">
-                            Ver demo
+                            aria-label="Watch demo">
+                            Watch demo
                         </a>
                     </div>
                 </div>
             </article>
 
             <article class="experience__box">
-                <img class="experience__img" src="assets/flix.png" alt="Foto de la página del proyecto AluraFlix">
+                <img class="experience__img" src="assets/flix.png" alt="Screenshot of the AluraFlix project page">
                 <div class="experience__info">
                     <h3 class="experience__title">Alura Challenge</h3>
-                    <h4 class="experience__text">Producto: Alura Flix con React</h4>
+                    <h4 class="experience__text">Product: Alura Flix con React</h4>
                     <div class="experience__description">
                         <a href="https://github.com/LeonardoFMR/Curso_de_Practicando_React_Challenge_Aluraflix.git"
-                            class="experience__button--repositorio" aria-label="Repositorio">Repositorio</a>
+                            class="experience__button--repository" aria-label="Repository">Repository</a>
                         <a href="https://curso-de-practicando-react-challenge-aluraflix.vercel.app/"
-                            class="experience__button--demo" target="_blank" aria-label="Ver demo">
-                            Ver demo
+                            class="experience__button--demo" target="_blank" aria-label="Watch demo">
+                            Watch demo
                         </a>
                     </div>
                 </div>
             </article>
         </section>
+        <!-- Section Projects END -->
 
 
 
-        <!-- Sección de Contacto -->
-        <section class="formcontato" id="contacto">
-            <div class="formcontato__contacto">
-                <div class="formcontato--izq">
-                    <img class="formcontato__img" src="assets/imagen_contacto.png">
+        <!-- Section Contact START -->
+        <section class="contact-form" id="contact">
+            <div class="contact-form__contact">
+                <div class="contact-form__left">
+                    <img class="contact-form__img" src="assets/imagen_contact.png">
                 </div>
-                <div class="formcontato__info">
-                    <h2 class="formcontato__title">Contacto</h2>
-                    <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
-                    <h3 class="formcontato__text">Complete el siguiente formulario y me pondré en contacto con usted lo
-                        antes posible. </h3>
+                <div class="contact-form__info">
+                    <h2 class="contact-form__title">Contact</h2>
+                    <h3 class="contact-form__subtext">Do you want to contact me?</h3>
+                    <h3 class="contact-form__text">Please complete the next form and I'll contact you as soon as
+                        possible.</h3>
                 </div>
-                <div class="formulario">
-                    <form class="formcontato__formulario" name="form">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required>
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required>
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto" required>
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" required
-                            placeholder="Mensaje"></textarea>
-                        <button type="submit" class="formcontato__botonEnviar">Enviar mensaje</button>
+                <div class="form">
+                    <form class="contact-form__form-container" name="form">
+                        <input class="contact-form__input" type="text" name="name" placeholder="Name" required>
+                        <input class="contact-form__input" type="email" name="email" placeholder="E-mail" required>
+                        <input class="contact-form__input" type="text" name="subject" placeholder="Subject" required>
+                        <textarea class="contact-form__textarea" rows="5" cols="40" id="message" name="message" required
+                            placeholder="Message"></textarea>
+                        <button type="submit" class="contact-form__send-button">Send message</button>
                     </form>
                 </div>
             </div>
@@ -363,23 +381,28 @@
                     data-type="HORIZONTAL" data-vanity="leonardofmr" data-version="v1"><a
                         class="badge-base__link LI-simple-link"
                         href="https://mx.linkedin.com/in/leonardofmr?trk=profile-badge"
-                        aria-label="Ver perfil de LinkedIn de Leonardo"></a>
+                        aria-label="View Leonardo's LinkedIn profile"></a>
                 </div>
             </div>
 
         </section>
+        <!-- Section Contact END -->
 
-        <!-- Script -->
+        <!-- Script START -->
         <script src="validacion.js"></script>
         <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+        <!-- Script END -->
+
     </main>
-    <!-- Sección de Footer -->
+
+    <!-- Section Footer START -->
     <footer class="footer">
-        <div class="footer__rodape">
-            <p>Desarrollado por Leonardo Morales</p>
+        <div class="footer__content">
+            <p>Developed by Leonardo Morales</p>
             <p>2025</p>
         </div>
     </footer>
+    <!-- Section Footer END -->
 
 </body>
 

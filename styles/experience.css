@@ -67,11 +67,11 @@
 .experience__description {
   display: flex;
   justify-content: center;
-  gap: 1.25rem;
+  gap: 8.25rem;
   flex-wrap: wrap;
 }
 
-.experience__button--repositorio,
+.experience__button--repository,
 .experience__button--demo {
   border: 0.0125rem solid var(--lightblue);
   background-color: var(--strongblue);
@@ -86,7 +86,7 @@
 
 }
 
-.experience__button--repositorio:hover,
+.experience__button--repository:hover,
 .experience__button--demo:hover {
   /* box-shadow: inset 0 0 6.25rem var(--strongblue), 0 0 2.375rem var(--deeppurple); */
   color: var(--agua);
@@ -155,7 +155,7 @@
     justify-content: space-between;
   }
 
-  .experience__button--repositorio {
+  .experience__button--repository {
     margin-left: 0.5rem;
   }
 }
