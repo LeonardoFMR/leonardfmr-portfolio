@@ -54,4 +54,4 @@ cd tu-repositorio
 
 
 
-###Captain's log: Share hobbies.css
+###Captain's log: 
