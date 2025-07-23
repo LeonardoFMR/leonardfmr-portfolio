@@ -21,13 +21,11 @@
 
 body {
     background-color: var(--background);
-    line-height: 1.5;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", Times New Roman, Times;
     font-size: 1rem;
     color: var(--text-light);
     overflow-x: hidden;
 }
-
 
 main {
     display: flex;
@@ -51,20 +49,235 @@ main {
     --text-light: #F5F5F5;
     --lightblue: rgb(102, 184, 255);
 
-    /* UI Feedback */
-    --success: #1fad68;
-    --neutral: white;
+    /* Neon */
+    --neongreen: #2ef8a0;
+    --neonblue: #01c4e7;
+    --neonpurple: #c501e2;
+    --neonred: #ff0534;
+    --neonpink: #f82d97;
 
-    /* Tamaños tipográficos */
+    /* Font sizes*/
     --font-xs: 0.75rem;
     --font-sm: 0.875rem;
     --font-md: 1rem;
     --font-lg: 1.25rem;
     --font-xl: 1.5rem;
+    --font-2xl: 1.75rem;
+    --font-3xl: 2rem;
+    --font-4xl: 2.5rem;
+    --font-5xl: 3rem;
+    --font-6xl: 3.5rem;
+    --font-7xl: 4rem;
 }
 
-.text-xs { font-size: var(--font-xs); }
-.text-sm { font-size: var(--font-sm); }
-.text-md { font-size: var(--font-md); }
-.text-lg { font-size: var(--font-lg); }
-.text-xl { font-size: var(--font-xl); }
+.font-light {
+    font-weight: 300;
+}
+
+.font-regular {
+    font-weight: 400;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+.font-xbold {
+    font-weight: 700;
+}
+
+.text-shadow-dark {
+    text-shadow:
+        -0.1rem -0.1rem 0 black,
+        0.1rem -0.1rem 0 black,
+        -0.1rem 0.1rem 0 black,
+        0.1rem 0.1rem 0 black;
+}
+
+.text-xs {
+    font-size: var(--font-xs);
+}
+
+.text-sm {
+    font-size: var(--font-sm);
+}
+
+.text-md {
+    font-size: var(--font-md);
+}
+
+.text-lg {
+    font-size: var(--font-lg);
+}
+
+.text-xl {
+    font-size: var(--font-xl);
+}
+
+.text-2xl {
+    font-size: var(--font-2xl);
+}
+
+.text-3xl {
+    font-size: var(--font-3xl);
+}
+
+.text-4xl {
+    font-size: var(--font-4xl);
+}
+
+.text-5xl {
+    font-size: var(--font-5xl);
+}
+
+.text-6xl {
+    font-size: var(--font-6xl);
+}
+
+.text-7xl {
+    font-size: var(--font-7xl);
+}
+
+/* 📱 Móviles normales: >= 30rem */
+@media (min-width: 30rem) {
+    .text-sm {
+        font-size: var(--font-md);
+    }
+
+    .text-md {
+        font-size: var(--font-lg);
+    }
+
+    .text-lg {
+        font-size: var(--font-xl);
+    }
+
+    .text-xl {
+        font-size: var(--font-2xl);
+    }
+}
+
+/* 🧾 Tablets: >= 48rem */
+@media (min-width: 48rem) {
+    .text-sm {
+        font-size: var(--font-lg);
+    }
+
+    .text-md {
+        font-size: var(--font-xl);
+    }
+
+    .text-lg {
+        font-size: var(--font-2xl);
+    }
+
+    .text-xl {
+        font-size: var(--font-3xl);
+    }
+}
+
+/* 💻 Desktop: >= 64rem */
+@media (min-width: 64rem) {
+    .text-sm {
+        font-size: var(--font-xl);
+    }
+
+    .text-md {
+        font-size: var(--font-2xl);
+    }
+
+    .text-lg {
+        font-size: var(--font-3xl);
+    }
+
+    .text-xl {
+        font-size: var(--font-4xl);
+    }
+}
+
+/* 🖥️ Pantallas grandes: >= 87.5rem */
+@media (min-width: 87.5rem) {
+    .text-sm {
+        font-size: var(--font-2xl);
+    }
+
+    .text-md {
+        font-size: var(--font-3xl);
+    }
+
+    .text-lg {
+        font-size: var(--font-4xl);
+    }
+
+    .text-xl {
+        font-size: var(--font-5xl);
+    }
+}
+
+
+@keyframes animation-rotary {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+.rotary {
+    margin: auto;
+    position: relative;
+    border-radius: 50%;
+    border: 0.41rem solid var(--agua);
+    animation: animation-rotary 191s linear infinite;
+    transform-origin: center;
+}
+
+.rotary:before,
+.rotary:after {
+    content: '';
+    display: block;
+    position: absolute;
+}
+
+.rotary:before {
+    top: 50%;
+    left: 50%;
+    border-radius: 0 0 100%;
+}
+
+.rotary:after {
+    border-radius: 100% 0 0
+}
+
+
+@keyframes animation-rotary2 {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+.rotary2 {
+    position: relative;
+    border-radius: 50%;
+    animation: animation-rotary2 21s linear infinite;
+}
+
+.rotary2:hover {
+    animation: animation-rotary 1s linear infinite;
+}
+
+.rotary2:before,
+.rotary2:after {
+    content: '';
+    display: block;
+    position: absolute;
+
+}
+
+.rotary2:before {
+    top: 50%;
+    left: 50%;
+    border-radius: 0 0 100%;
+}
+
+.rotary2:after {
+    border-radius: 100% 0 0
+}

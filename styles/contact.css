@@ -26,17 +26,14 @@
   }
   
   .contact-form__title {
-    font-size: 1.625rem;
     color: var(--agua);
   }
   
   .contact-form__subtext {
-    font-size: 1.375rem; 
     color: var(--deeppurple);
   }
   
   .contact-form__text {
-    font-size: 0.875rem; 
     color: var(--strongblue);
   }
   
@@ -73,17 +70,14 @@
     }
   
     .contact-form__title {
-      font-size: 1.375rem; 
       color: var(--heavyblue);
     }
   
     .contact-form__subtext {
-      font-size: 1.125rem; 
       color: var(--success);
     }
   
     .contact-form__text {
-      font-size: 0.625rem; 
       color: var(--deeppurple);
     }
   }
