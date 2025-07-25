@@ -12,7 +12,7 @@
     <title>Leonardo Morales</title>
 </head>
 
-<body >
+<body>
     <main class="main-content">
 
         <!-- Header START-->
@@ -71,7 +71,8 @@
                         <a href="https://github.com/LeonardoFMR" target="_blank"
                             aria-label="View Leonardo's Github profile">
                             Github
-                            <img class="presentation__network-item__img rotary2" src="assets/github.png" alt="Github icon">
+                            <img class="presentation__network-item__img rotary2" src="assets/github.png"
+                                alt="Github icon">
                         </a>
                     </li>
 
@@ -79,7 +80,8 @@
                         <a href="https://mx.linkedin.com/in/leonardofmr?trk=profile-badge" target="_blank"
                             aria-label="View Leonardo's LinkedIn profile">
                             Linkedin
-                            <img class="presentation__network-item__img rotary2" src="assets/linkedin.png" alt="Linkedin icon">
+                            <img class="presentation__network-item__img rotary2" src="assets/linkedin.png"
+                                alt="Linkedin icon">
                         </a>
                     </li>
 
@@ -108,18 +110,18 @@
         <!-- About me START -->
         <section id="about-me-training" class="about-me-training">
 
-                <div class="about__container " id="about-me">
-                    <h2 class="about__title text-xl" lang="en">About me:</h2>
-                    <p class="about__paragraph about__paragraph--destacado text-sm">Programmer in progress. </p>
-                    <p class="about__paragraph text-sm">Through ongoing self-directed learning, I have acquired basic
-                        programming skills.</p>
-                    <p class="about__paragraph text-sm">Over the past few years, I have updated and formalized my knowledge
-                        through
-                        digital courses offered through platforms such as <mark>Alura LATAM</mark>.</p>
-                    <p class="about__paragraph text-sm">I hope to become a professional in solving digital problems by 2025.
-                    </p>
+            <div class="about__container " id="about-me">
+                <h2 class="about__title text-xl" lang="en">About me:</h2>
+                <p class="about__paragraph about__paragraph--destacado text-sm">Programmer in progress. </p>
+                <p class="about__paragraph text-sm">Through ongoing self-directed learning, I have acquired basic
+                    programming skills.</p>
+                <p class="about__paragraph text-sm">Over the past few years, I have updated and formalized my knowledge
+                    through
+                    digital courses offered through platforms such as <mark>Alura LATAM</mark>.</p>
+                <p class="about__paragraph text-sm">I hope to become a professional in solving digital problems by 2025.
+                </p>
 
-                </div>
+            </div>
 
             <section class="training" id="training">
                 <h2 class="training__title text-lg ">Training</h2>
@@ -127,7 +129,8 @@
                     <div class="training__box">
                         <ul class="training__list">
                             <li class="training__item">
-                                <img class="training__item-img rotary" src="assets/alura_latam_logo.jpg" alt="Alura logo">
+                                <img class="training__item-img rotary" src="assets/alura_latam_logo.jpg"
+                                    alt="Alura logo">
                             </li>
                             <li class="training__item-title text-md">
                                 <h4>UX Design Training</h4>
@@ -165,8 +168,8 @@
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__item"> <img class="skills__item-img" src="assets/css.png"
-                                alt="CSS icon"> </li>
+                        <li class="skills__item"> <img class="skills__item-img" src="assets/css.png" alt="CSS icon">
+                        </li>
                         <li class="skills__name text-md">CSS</li>
                     </ul>
                 </div>
@@ -314,10 +317,10 @@
                     <h3 class="experience__title text-lg">Oracle Challenge</h3>
                     <h4 class="experience__text text-md">Product: "Text encryptor"</h4>
                     <div class="experience__description">
-                        <a href="https://github.com/LeonardoFMR/Encriptador.git" class="experience__button--repository text-xs"
-                            aria-label="Repository">Repository</a>
-                        <a href="https://encriptador-gilt.vercel.app/" class="experience__button--demo text-xs" target="_blank"
-                            aria-label="Watch demo">
+                        <a href="https://github.com/LeonardoFMR/Encriptador.git"
+                            class="experience__button--repository text-xs" aria-label="Repository">Repository</a>
+                        <a href="https://encriptador-gilt.vercel.app/" class="experience__button--demo text-xs"
+                            target="_blank" aria-label="Watch demo">
                             Watch demo
                         </a>
                     </div>
@@ -345,7 +348,7 @@
 
 
         <!-- Section Contact START -->
-        <section class="contact-form" id="contact">
+        <!-- <section class="contact-form" id="contact">
             <div class="contact-form__contact">
                 <div class="contact-form__left">
                     <img class="contact-form__img" src="assets/imagen_contact.png">
@@ -376,7 +379,55 @@
                 </div>
             </div>
 
+        </section> -->
+
+
+
+        <section class="contact-form" id="contact">
+            <div class="contact-form__contact">
+
+                <div class="contact-form__left">
+                    <img class="contact-form__img" src="assets/imagen_contact.png" alt="Contact image">
+                </div>
+
+                <div class="contact-form__info">
+                    <h2 class="contact-form__title">Contact</h2>
+                    <h3 class="contact-form__subtext">Do you want to contact me?</h3>
+                    <h3 class="contact-form__text">Please complete the next form and I'll contact you as soon as
+                        possible or not.</h3>
+                </div>
+
+                <div class="form">
+                    <form action="https://formsubmit.co/your-email@gmail.com" method="POST"
+                        class="contact-form__form-container">
+
+                        <!-- Optional hidden fields -->
+                        <input type="hidden" name="_subject" value="New message from portfolio!">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+
+                        <!-- Input fields -->
+                        <input class="contact-form__input" type="text" name="name" placeholder="Name" required>
+                        <input class="contact-form__input" type="email" name="email" placeholder="E-mail" required>
+                        <input class="contact-form__input" type="text" name="subject" placeholder="Subject" required>
+                        <textarea class="contact-form__textarea" rows="5" name="message" placeholder="Message"
+                            required></textarea>
+
+                        <button type="submit" class="contact-form__send-button">Send message</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="badge-container">
+                <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="dark"
+                    data-type="HORIZONTAL" data-vanity="leonardofmr" data-version="v1">
+                    <a class="badge-base__link LI-simple-link"
+                        href="https://mx.linkedin.com/in/leonardofmr?trk=profile-badge"
+                        aria-label="View Leonardo's LinkedIn profile"></a>
+                </div>
+            </div>
         </section>
+
         <!-- Section Contact END -->
 
         <!-- Script START -->

@@ -1,17 +1,25 @@
+/* === Footer - Mobile First === */
 .footer {
-    display: flex;
-    flex-direction: column;
-    padding: 1.1rem 10rem;
-    width: 100%;
-    margin-top: 0.000625rem;
-    background: linear-gradient(var(--black), var(--black)), var(--strongblue);
-    background-color: var(--strongblue);
-    box-shadow: 0 0.3125rem 1.8125rem 0 var(--strongblue);
-    border-top: 0.0625rem solid var(--strongblue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.0625rem;
+  padding: 1.1rem 2rem;
+  background: linear-gradient(var(--black), var(--black)), var(--strongblue);
+  background-color: var(--strongblue);
+  border-top: 0.0625rem solid var(--strongblue);
+  box-shadow: 0 0.3125rem 1.8125rem 0 var(--strongblue);
 }
 
 .footer__content {
-    text-align: center;
-    padding: 1rem;
-    color: var(--lightblue);
+  text-align: center;
+  padding: 1rem;
+  color: var(--lightblue);
+}
+
+@media (min-width: 64rem) {
+  .footer {
+    padding: 1.1rem 10rem;
+  }
 }
