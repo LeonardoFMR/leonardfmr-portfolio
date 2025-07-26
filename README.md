@@ -1,47 +1,41 @@
-# ¡Bienvenido al proyecto base de mi portafolio!
+# 🎉 Welcome to the base project of my portfolio!
 
 ---
 
-## 🚧 En desarrollo
+## 🚧 In Progress
 
-Este proyecto continúa en desarrollo, ya que sigo adquiriendo nuevas habilidades y conocimientos en el área de desarrollo web.
-
----
-
-## 📂 Acerca del repositorio
-
-Este repositorio corresponde a mi portafolio personal, desarrollado como parte del desafío propuesto por **Alura LATAM**.  
-El objetivo es demostrar habilidades técnicas y evidencias de aprendizaje mediante una estructura clara y profesional.
+This project is still under development, as I continue acquiring new skills and knowledge in the field of web development.
 
 ---
 
-## 🛠️ Tecnologías y metodologías aplicadas
+## 📂 About this repository
 
-- **BEM (Block Element Modifier):** para mantener un código limpio, semántico y escalable.  
-- **Atomic Design:** para estructurar componentes de forma lógica y reutilizable.  
-- **HTML semántico y CSS modular:** para asegurar claridad y organización en el código.
-
----
-
-## 🖼️ Gestión de imágenes
-
-- Las imágenes relevantes para el contenido, la identidad o el contexto se integran directamente en el HTML.  
-- Las imágenes decorativas se gestionan desde el CSS para mantener la separación de responsabilidades.
+This repository corresponds to my personal portfolio, developed as part of the challenge proposed by **Alura LATAM**.  
+The goal is to showcase technical skills and learning progress through a clear and professional structure.
 
 ---
 
-## 📌🔍 Vista previa
+## 🛠️ Technologies and methodologies applied
 
-Puedes explorar la versión actual del portafolio en el siguiente enlace:
-
-[🔗 Ver Portafolio en línea](https://leonardofmr.github.io/Curso-de-Practicando-Front-End-Challenge-Portafolio/)
-
+- **BEM (Block Element Modifier):** to maintain clean, semantic, and scalable code.  
+- **Atomic Design:** to structure components in a logical and reusable way.  
+- **Semantic HTML and modular CSS:** to ensure clarity and organization in the codebase.
 
 ---
 
-## 🧪 Instalación local
+## 🖼️ Image management
 
-Si deseas clonar este proyecto y ejecutarlo en tu entorno local, sigue estos pasos:
+- Images relevant to content, identity, or context are integrated directly in the HTML.  
+- Decorative images are managed via CSS to maintain separation of concerns.
+
+---
+
+## 📌🔍 Preview
+
+You can explore the current version of the portfolio at the following link:
+
+[🔗 View Portfolio Online](https://leonardofmr.github.io/Curso-d)
+
 
 ```bash
 # Clona el repositorio
