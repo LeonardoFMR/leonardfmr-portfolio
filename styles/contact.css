@@ -96,16 +96,14 @@
 
 /* === Desktop (≥ 1024px) === */
 @media (min-width: 64rem) {
-  .badge-container {
-    display: none;
-  }
+  
 
   .contact-form__title {
     color: var(--heavyblue);
   }
 
   .contact-form__subtext {
-    color: var(--success);
+    color: var(--neongreen);
   }
 
   .contact-form__text {
