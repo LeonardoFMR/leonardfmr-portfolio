@@ -30,6 +30,7 @@
 
 .contact-form__title {
   color: var(--agua);
+  -webkit-text-stroke: 0.02rem var(--lightblue);
 }
 
 .contact-form__subtext {
@@ -64,6 +65,13 @@
   border-radius: 0.3125rem;
   border: 0.075rem solid var(--darkred);
   margin-top: 1rem;
+}
+
+
+.contact-form__img {
+  width: clamp(2rem, 4vw, 4rem);
+  height: clamp(2rem, 4vw, 4rem);
+
 }
 
 /* === Tablet (≥ 768px) === */
