@@ -1,0 +1,78 @@
+
+/* Contenedor principal */
+.ecommerce-learning {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: block;
+    line-height: 1.6;
+}
+
+/* Introducción */
+.learning-intro {
+    height: auto;
+    min-height: 0;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.learning-intro__content {
+    margin: 0;
+    padding: 0;
+}
+
+.learning-intro__label {
+    margin-bottom: 10px;
+}
+
+.learning-intro__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.learning-intro__description {
+    margin-bottom: 0;
+}
+
+/* Secciones de aprendizaje */
+.learning-topic {
+    margin-bottom: 40px;
+}
+
+/* Títulos principales */
+.learning-topic__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Subtítulos */
+.learning-topic__subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Párrafos */
+.learning-topic__text {
+    margin-bottom: 15px;
+}
+
+/* Listas */
+.learning-topic__list {
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
+
+/* Elementos de las listas */
+.learning-topic__item {
+    list-style: disc;
+    margin-bottom: 8px;
+}
+
+/* Texto destacado */
+.learning-topic__item strong {
+    font-weight: bold;
+}

@@ -30,6 +30,7 @@
   font-weight: 400;
   text-align: left;
   line-height: 2;
+   margin-block: 0 1.5rem;
 }
 
 .about__paragraph--destacado {
@@ -38,6 +39,14 @@
 
 .about__paragraph--destacado:hover {
   color: var(--agua);
+}
+
+.about__paragraph strong {
+    font-weight: 700;
+}
+
+.about__paragraph em {
+    font-style: italic;
 }
 
 /* === About Tablet === */
