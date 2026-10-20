@@ -15,51 +15,42 @@
 </head>
 
 <body>
+    <header class="header">
+        <div class="logo" id="start">
+            <img class="logo__img" src="assets/stars_icon.svg" alt="Star icon">
+            <a class="logo__title text-md" href="index.html">
+                Leonardo Morales, personal Website
+            </a>
+        </div>
+        <nav class="menu" aria-label="Main navigation">
+            <ul class="menu__list">
+                <li class="menu__list-item text-sm">
+                    <a class="menu__item" href="ecommerce-learning.html">
+                        E-commerce Notes
+                    </a>
+                </li>
+                <li class="menu__list-item text-sm">
+                    <a class="menu__item" href="programming-projects.html">
+                        Programming Skills & Projects
+                    </a>
+                </li>
+                <li class="menu__list-item text-sm">
+                    <a class="menu__item" href="digital-marketing.html">
+                        Digital Marketing Notes
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <address class="header__contact">
+            <a href="mailto:leonardfmr@gmail.com" class="menu__item menu__item--contact text-sm">
+                leonardfmr@gmail.com
+            </a>
+        </address>
+    </header>
     <main class="main-content">
-
-        <header class="header">
-            <div class="logo" id="start">
-                <img class="logo__img" src="assets/stars_icon.svg" alt="Star icon">
-
-                <a class="logo__title text-md" href="index.html">
-                    Leonardo Morales, personal Website
-                </a>
-            </div>
-
-            <nav class="menu" aria-label="Main navigation">
-                <ul class="menu__list">
-                    <li class="menu__list-item text-sm">
-                        <a class="menu__item" href="ecommerce-learning.html">
-                            E-commerce Notes
-                        </a>
-                    </li>
-
-                    <li class="menu__list-item text-sm">
-                        <a class="menu__item" href="programming-projects.html">
-                            Programming Skills & Projects
-                        </a>
-                    </li>
-
-                    <li class="menu__list-item text-sm">
-                        <a class="menu__item" href="marketing-digital.html">
-                            Digital Marketing Notes
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-
-            <address class="header__contact">
-                <a href="mailto:leonardfmr@gmail.com" class="menu__item menu__item--contact text-sm">
-                    leonardfmr@gmail.com
-                </a>
-            </address>
-        </header>
-
-        <!-- Presentation START -->
         <section class="presentation" id="presentation">
             <div class="presentation__container">
                 <div class="presentation__content">
-
                     <div class="presentation__profile">
                         <img class="presentation__img" src="assets/profile.png" alt="Portrait of Leonardo Morales">
 
@@ -68,13 +59,11 @@
                             I combine sales experience with digital skills.
                         </h1>
                     </div>
-
-                    <div class="presentation__texto">
+                    <div class="presentation__text">
                         <p class="presentation__subsection text-md">
                             A space to share who I am, what I know,
                             and what I continue to learn.
                         </p>
-
                         <p class="presentation__subsection text-md">
                             I continue to explore digital tools and
                             their practical applications, especially
@@ -82,47 +71,42 @@
                             and customer experiences.
                         </p>
                     </div>
-
                 </div>
             </div>
             <ul class="presentation__network text-md" id="networks">
                 <li class="presentation__network-item">
-                    <a href="https://github.com/LeonardoFMR" target="_blank"
+                    <a class="presentation__network-link" href="https://github.com/LeonardoFMR" target="_blank"
                         aria-label="View Leonardo's Github profile">
                         Github
-                        <img class="presentation__network-item__img rotary2" src="assets/GitHub_icon.svg"
-                            alt="Github icon">
+                        <img class="presentation__network-img rotary2" src="assets/GitHub_icon.svg" alt="Github icon">
                     </a>
                 </li>
                 <li class="presentation__network-item">
-                    <a href="https://mx.linkedin.com/in/leonardofmr/" target="_blank"
+                    <a class="presentation__network-link" href="https://mx.linkedin.com/in/leonardofmr/" target="_blank"
                         aria-label="View Leonardo's LinkedIn profile">
                         Linkedin
-                        <img class="presentation__network-item__img rotary2" src="assets/linkedin.svg"
-                            alt="Linkedin icon">
+                        <img class="presentation__network-img rotary2" src="assets/linkedin.svg" alt="Linkedin icon">
                     </a>
                 </li>
                 <li class="presentation__network-item">
-                    <a href="https://www.instagram.com/leonard_warhol/" target="_blank"
-                        aria-label="View Leonardo's Instagram profile">
+                    <a class="presentation__network-link" href="https://www.instagram.com/leonard_warhol/"
+                        target="_blank" aria-label="View Leonardo's Instagram profile">
                         Instagram
-                        <img class="presentation__network-item__img rotary2" src="assets/instagram.svg"
-                            alt="Instagram icon">
+                        <img class="presentation__network-img rotary2" src="assets/instagram.svg" alt="Instagram icon">
                     </a>
                 </li>
                 <li class="presentation__network-item">
-                    <a href="https://docs.google.com/document/d/1kagCqMqgfvF4eUgcKbhbSEmHxavEga8t/edit?usp=sharing&ouid=115205270928286638522&rtpof=true&sd=true"
+                    <a class="presentation__network-link"
+                        href="https://docs.google.com/document/d/1kagCqMqgfvF4eUgcKbhbSEmHxavEga8t/edit?usp=sharing&ouid=115205270928286638522&rtpof=true&sd=true"
                         target="_blank" aria-label="Download Leonardo's resume">
                         Resume
-                        <img class="presentation__network-item__img rotary2" src="assets/pdf.svg" alt="PDF icon">
+                        <img class="presentation__network-img rotary2" src="assets/pdf.svg" alt="PDF icon">
                     </a>
                 </li>
             </ul>
             </div>
         </section>
-        <!-- Presentation END -->
-        <!-- About me START -->
-        <section id="about-me-training" class="about-me-training">
+        <section id="about" class="about-me">
             <div class="about__container" id="about-me">
                 <h2 class="about__title text-xl" lang="en">About me:</h2>
                 <p class="about__paragraph about__paragraph--destacado text-sm">
@@ -147,35 +131,34 @@
                     mindset and a growing set of digital skills.
                 </p>
             </div>
-            <section class="training" id="training">
-                <h2 class="training__title text-lg ">Training</h2>
-                <div class="training__courses ">
-                    <div class="training__box">
-                        <ul class="training__list">
-
-                            <li class="training__item">
-                                <a href="https://app.aluracursos.com/user/leonardfmr" target="_blank"
-                                    rel="noopener noreferrer" aria-label="View my Alura LATAM profile">
-
-                                    <img class="training__item-img rotary" src="assets/alura_latam_logo.jpg"
-                                        alt="Alura LATAM logo">
-                                </a>
-                            </li>
-                            <li class="training__item-title text-md">
-                                <h4>UX Design Training</h4>
-                            </li>
-                            <li class="training__item-subtitle text-sm">
-                                <p><time datetime="2025">2025</time> - Alura</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
         </section>
-        <!-- About me END -->
-        <!-- Section Hobbies START -->
+        <section class="training" id="training">
+            <h2 class="training__title text-lg ">Training</h2>
+            <div class="training__courses ">
+                <div class="training__box">
+                    <ul class="training__list">
+
+                        <li class="training__item">
+                            <a href="https://app.aluracursos.com/user/leonardfmr" target="_blank"
+                                rel="noopener noreferrer" aria-label="View my Alura LATAM profile">
+
+                                <img class="training__item-img rotary" src="assets/alura_latam_logo.jpg"
+                                    alt="Alura LATAM logo">
+                            </a>
+                        </li>
+                        <li class="training__item-title text-md">
+                            <h3>UX Design Training</h3>
+                        </li>
+                        <li class="training__item-subtitle text-sm">
+                            <p><time datetime="2025">2025</time> - Alura</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
         <section class="hobbies" id="hobbies">
-            <h3 class="hobbies__title text-xl">Hobbies</h3>
+            <h2 class="hobbies__title text-xl">Hobbies</h2>
             <div class="hobbies__line">
                 <div class="hobbies__box">
                     <ul>
@@ -217,7 +200,7 @@
                 </div>
             </div>
         </section>
-        <!-- Hobbies END-->
+
         <section class="contact-form" id="contact">
             <div class="contact-form__contact">
                 <div class="contact-form__left">
@@ -225,11 +208,11 @@
                 </div>
                 <div class="contact-form__info">
                     <h2 class="contact-form__title">Contact</h2>
-                    <h3 class="contact-form__subtext">Do you want to contact me?</h3>
-                    <h3 class="contact-form__text">Please complete the next form and I'll contact you as soon as
-                        possible or not.</h3>
+                    <p class="contact-form__subtext">Do you want to contact me?</p>
+                    <p class="contact-form__text">Please complete the next form and I'll contact you as soon as
+                        possible or not.</p>
                 </div>
-                <div class="form">
+                <div class="contact-form__wrapper">
                     <form action="https://formsubmit.co/leonardfmr@gmail.com" method="POST"
                         class="contact-form__form-container">
                         <input type="hidden" name="_subject" value="New message from portfolio!">
@@ -246,8 +229,6 @@
                 </div>
             </div>
         </section>
-        <!--Contact END -->
-        <script src="validacion.js"></script>
     </main>
     <footer class="footer">
         <div class="footer__content">

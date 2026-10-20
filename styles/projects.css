@@ -64,8 +64,7 @@
   text-align: center;
 }
 
-.projects__button--repository,
-.projects__button--demo {
+.projects__button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,8 +80,8 @@
   transition: all 1.99s;
 }
 
-.projects__button--repository:hover,
-.projects__button--demo:hover {
+
+.projects__button:hover {
   color: var(--agua);
   background-color: var(--deeppurple);
   border: 0.125rem solid var(--agua);
@@ -119,8 +118,8 @@
     color: var(--agua);
   }
 
-  .projects__button--repository,
-  .projects__button--demo {
+  
+  .projects__button {
     width: clamp(8rem, 6vw, 10rem);
     height: clamp(3rem, 4vw, 4.5rem);
   }
@@ -153,8 +152,8 @@
     gap: 0.8rem;
   }
 
-  .projects__button--repository,
-  .projects__button--demo {
+
+  .projects__button {
     width: clamp(6rem, 4vw, 8rem);
     height: clamp(1.5rem, 4vw, 2rem);
   }

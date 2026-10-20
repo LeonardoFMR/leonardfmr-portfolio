@@ -15,7 +15,7 @@
   padding: 0.5rem;
 }
 
-.form {
+.contact-form__wrapper {
   width: 100%;
 }
 
@@ -81,7 +81,7 @@
     align-items: flex-start;
   }
 
-  .form {
+  .contact-form__wrapper {
     max-width: 60%;
   }
 
