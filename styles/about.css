@@ -3,9 +3,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem;
+  /*margin: 2rem;*/
   gap: 2rem;
-   max-width: 80%;
+  /* max-width: 80%;*/
 }
 
 .about__title {
@@ -40,6 +40,14 @@
 .about__paragraph em {
     font-style: italic;
 }
+
+.about-training {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem 2rem;
+}
+
 
 /* === About Tablet === */
 @media (min-width: 48rem) {

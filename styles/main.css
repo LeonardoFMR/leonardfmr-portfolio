@@ -20,6 +20,8 @@
 
 @import url("ecommerce-learning.css");
 
+@import url("digital-marketing.css");
+
 body {
     background-color: var(--background);
     font-family: "Raleway", Times New Roman, Times;

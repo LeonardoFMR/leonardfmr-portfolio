@@ -1,0 +1,160 @@
+
+.digital-marketing {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: block;
+    line-height: 1.6;
+}
+
+.marketing-intro {
+    height: auto;
+    min-height: 0;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.marketing-intro__back {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: var(--lightblue);
+}
+
+.marketing-intro__content {
+    margin: 0;
+    padding: 0;
+}
+
+.marketing-intro__label {
+    margin-bottom: 10px;
+}
+
+.marketing-intro__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: var(--neongreen);
+}
+
+.marketing-intro__description {
+    margin-bottom: 0;
+}
+
+.marketing-topic {
+    margin-bottom: 40px;
+}
+
+.marketing-topic__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: var(--neonpurple);
+}
+
+.marketing-topic__subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--neonpink);
+}
+.marketing-topic__text {
+    margin-bottom: 15px;
+}
+
+.marketing-topic__list {
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
+
+.marketing-topic__item {
+    margin-bottom: 8px;
+}
+
+ul.marketing-topic__list > .marketing-topic__item {
+    list-style: disc;
+}
+
+ol.marketing-topic__list > .marketing-topic__item {
+    list-style: decimal;
+}
+
+/* Texto destacado */
+.marketing-topic__item strong {
+    font-weight: bold;
+}
+
+.marketing-topic__text em {
+    font-style: italic;
+}
+
+
+/* === Tablet and Small Desktop (<= 1024px) === */
+@media (max-width: 64rem) {
+    .digital-marketing {
+        max-width: 100%;
+        padding: 1.25rem;
+    }
+
+    .marketing-topic {
+        margin-bottom: 2rem;
+    }
+}
+
+/* === Mobile (<= 768px) === */
+@media (max-width: 48rem) {
+    .digital-marketing {
+        padding: 1rem;
+        line-height: 1.6;
+    }
+
+    .marketing-intro {
+        margin-bottom: 1.5rem;
+    }
+
+    .marketing-intro__title {
+        font-size: 1.65rem;
+        line-height: 1.3;
+    }
+
+    .marketing-topic__title {
+        font-size: 1.3rem;
+        line-height: 1.4;
+    }
+
+    .marketing-topic__subtitle {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+
+    .marketing-topic__list {
+        padding-left: 1.4rem;
+    }
+
+    .marketing-topic__item {
+        margin-bottom: 0.7rem;
+    }
+}
+
+/* === Mobile XS (<= 416px) === */
+@media (max-width: 26rem) {
+    .digital-marketing {
+        padding: 0.75rem;
+    }
+
+    .marketing-intro__title {
+        font-size: 1.45rem;
+    }
+
+    .marketing-topic__title {
+        font-size: 1.15rem;
+    }
+
+    .marketing-topic__subtitle {
+        font-size: 1rem;
+    }
+
+    .marketing-topic__list {
+        padding-left: 1.15rem;
+    }
+}

@@ -1,7 +1,3 @@
-/* === Presentation - Mobile First === */
-
-.presentation {}
-
 .presentation__content {
   /*display: grid;*/
   /*grid-template-columns: 30% 1fr;*/
@@ -9,7 +5,6 @@
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  background-color: red;
 }
 
 .presentation__profile {
@@ -18,9 +13,7 @@
   align-items: center;
   gap: 2.5rem;
   width: 100%;
-  background-color: green;
   padding: 1rem;
-
 }
 
 .presentation__img {
@@ -41,18 +34,17 @@
 
 .presentation__text {
   grid-column: 2;
- 
   gap: 0.5rem;
   text-align: left;
 }
 
 .presentation__subsection {
   font-weight: 200;
-  text-shadow:
+  /*text-shadow:
     -0.1025rem -0.1025rem 0 black,
     0.1025rem -0.1025rem 0 black,
     -0.1025rem 0.1025rem 0 black,
-    0.1025rem 0.1825rem 0 black;
+    0.1025rem 0.1825rem 0 black;*/
 }
 
 .presentation__network {
@@ -81,16 +73,13 @@
   background-color: var(--neongreen);
 }
 
-
 .presentation__network-link {
   color: var(--deeppurple);
 }
 
-
 .presentation__network-link:visited {
   color: var(--neongreen);
 }
-
 
 .presentation__network-link:active {
   color: var(--neonpink);
