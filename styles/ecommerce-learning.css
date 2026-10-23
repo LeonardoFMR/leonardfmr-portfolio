@@ -81,7 +81,7 @@
 
 /* === Tablet and Small Desktop (<= 1024px) === */
 @media (max-width: 64rem) {
-    .ecommerce-ecommerce {
+    .ecommerce-learning {
         max-width: 100%;
         padding: 1.25rem;
     }
@@ -93,7 +93,7 @@
 
 /* === Mobile (<= 768px) === */
 @media (max-width: 48rem) {
-    .ecommerce-ecommerce {
+    .ecommerce-learning {
         padding: 1rem;
         line-height: 1.6;
     }

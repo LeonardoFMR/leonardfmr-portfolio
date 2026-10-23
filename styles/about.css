@@ -1,11 +1,9 @@
-
-.about-me{
+.about-me {
   display: flex;
   flex-direction: column;
   align-items: center;
   /*margin: 2rem;*/
   gap: 2rem;
-  /* max-width: 80%;*/
 }
 
 .about__title {
@@ -22,7 +20,7 @@
   font-weight: 400;
   text-align: left;
   line-height: 2;
-   margin-block: 0 1.5rem;
+  margin-block: 0 1.5rem;
 }
 
 .about__paragraph--destacado {
@@ -34,32 +32,25 @@
 }
 
 .about__paragraph strong {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .about__paragraph em {
-    font-style: italic;
+  font-style: italic;
 }
 
 .about-training {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 1rem 2rem;
 }
-
 
 /* === About Tablet === */
 @media (min-width: 48rem) {
   .about-me {
     flex-direction: row;
     justify-content: space-around;
-  }
-
-  .about {
-    display: block;
-    max-width: 60%;
-    border-bottom: 0.188rem solid var(--deeppurple);
   }
 
   .about__paragraph {
@@ -69,12 +60,6 @@
 
 /* === About Desktop === */
 @media (min-width: 64rem) {
-  .about {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    border-bottom: 0.188rem solid var(--agua);
-  }
-
   .about__paragraph {
     line-height: 2;
   }

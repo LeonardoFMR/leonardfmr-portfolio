@@ -1,18 +1,7 @@
-/* === Skills - Mobile First === */
 .skills {
   width: 100%;
   text-align: center;
   background: var(--heavyblue);
-}
-
-.skills__back {
-  margin-bottom: 10px;
-  font-size: 0.6rem;
-  display: inline-block;
-  margin-bottom: 15px;
-  color: var(--lightblue);
-
-  
 }
 
 .skills__title {
