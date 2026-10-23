@@ -1,39 +1,19 @@
+/* === Imports === */
+
 @import url("reset.css");
-
 @import url("header.css");
-
 @import url("presentation.css");
-
 @import url("about.css");
-
 @import url("skills.css");
-
 @import url("hobbies.css");
-
 @import url("training.css");
-
 @import url("projects.css");
-
 @import url("footer.css");
-
 @import url("contact.css");
-
 @import url("ecommerce-learning.css");
-
 @import url("digital-marketing.css");
 
-body {
-    background-color: var(--background);
-    font-family: "Raleway", Times New Roman, Times;
-    font-size: 1rem;
-    color: var(--text-light);
-    overflow-x: hidden;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-}
+/* === CSS Variables === */
 
 :root {
     /* Backgrounds */
@@ -59,7 +39,7 @@ main {
     --neonred: #ff0534;
     --neonpink: #f82d97;
 
-    /* Font sizes*/
+    /* Font Sizes */
     --font-xs: 0.75rem;
     --font-sm: 0.875rem;
     --font-md: 1rem;
@@ -72,6 +52,23 @@ main {
     --font-6xl: 3.5rem;
     --font-7xl: 4rem;
 }
+
+/* === Global Styles === */
+
+body {
+    background-color: var(--background);
+    font-family: "Raleway", Times New Roman, Times;
+    font-size: 1rem;
+    color: var(--text-light);
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* === Font Weight Utilities === */
 
 .font-light {
     font-weight: 300;
@@ -89,6 +86,8 @@ main {
     font-weight: 700;
 }
 
+/* === Text Shadow Utility === */
+
 .text-shadow-dark {
     text-shadow:
         -0.1rem -0.1rem 0 black,
@@ -96,6 +95,8 @@ main {
         -0.1rem 0.1rem 0 black,
         0.1rem 0.1rem 0 black;
 }
+
+/* === Font Size Utilities === */
 
 .text-xs {
     font-size: var(--font-xs);
@@ -141,7 +142,8 @@ main {
     font-size: var(--font-7xl);
 }
 
-/* 📱 Móviles normales: >= 30rem */
+/* === Mobile (>= 30rem) === */
+
 @media (min-width: 30rem) {
     .text-sm {
         font-size: var(--font-md);
@@ -160,7 +162,8 @@ main {
     }
 }
 
-/* 🧾 Tablets: >= 48rem */
+/* === Tablet (>= 48rem) === */
+
 @media (min-width: 48rem) {
     .text-sm {
         font-size: var(--font-lg);
@@ -179,7 +182,8 @@ main {
     }
 }
 
-/* 💻 Desktop: >= 64rem */
+/* === Desktop (>= 64rem) === */
+
 @media (min-width: 64rem) {
     .text-sm {
         font-size: var(--font-xl);
@@ -198,7 +202,8 @@ main {
     }
 }
 
-/* 🖥️ Pantallas grandes: >= 87.5rem */
+/* === Large Desktop (>= 87.5rem) === */
+
 @media (min-width: 87.5rem) {
     .text-sm {
         font-size: var(--font-2xl);
@@ -217,6 +222,7 @@ main {
     }
 }
 
+/* === Rotating Animations === */
 
 @keyframes animation-rotary {
     to {
@@ -247,20 +253,13 @@ main {
 }
 
 .rotary:after {
-    border-radius: 100% 0 0
-}
-
-
-@keyframes animation-rotary2 {
-    to {
-        transform: rotate(1turn);
-    }
+    border-radius: 100% 0 0;
 }
 
 .rotary2 {
     position: relative;
     border-radius: 50%;
-    animation: animation-rotary2 21s linear infinite;
+    animation: animation-rotary 21s linear infinite;
 }
 
 .rotary2:hover {
@@ -272,7 +271,6 @@ main {
     content: '';
     display: block;
     position: absolute;
-
 }
 
 .rotary2:before {
@@ -282,5 +280,5 @@ main {
 }
 
 .rotary2:after {
-    border-radius: 100% 0 0
+    border-radius: 100% 0 0;
 }

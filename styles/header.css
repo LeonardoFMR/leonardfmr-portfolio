@@ -6,7 +6,6 @@
   gap: 0.3125rem;
   padding: 0.3125rem;
   background: linear-gradient(var(--black), var(--black)), var(--strongblue);
-  background-color: var(--strongblue);
   border-bottom: 0.095rem solid var(--strongblue);
   box-shadow: 0 0.125rem 0.45rem 0 var(--strongblue);
 }

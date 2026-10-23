@@ -7,7 +7,6 @@
   margin-top: 0.0625rem;
   padding: 1.1rem 2rem;
   background: linear-gradient(var(--black), var(--black)), var(--strongblue);
-  background-color: var(--strongblue);
   border-top: 0.0625rem solid var(--strongblue);
   box-shadow: 0 0.3125rem 1.8125rem 0 var(--strongblue);
 }
