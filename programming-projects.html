@@ -4,27 +4,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta name="description" content="Explore Leonardo Morales' programming skills and web development projects.">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="styles/main.css">
-
     <title>Programming Projects | Leonardo Morales</title>
 </head>
 
 <body>
-
-    <header>
-        <a href="index.html">← Back to portfolio</a>
+    <header class="header">
+        <div class="logo" id="start">
+            <img class="logo__img" src="assets/stars_icon.svg" alt="Star icon">
+            <a class="logo__title text-md" href="index.html">
+                Leonardo Morales, personal Website
+            </a>
+        </div>
+        <nav class="menu" aria-label="Main navigation">
+            <ul class="menu__list">
+                <li class="menu__list-item text-sm">
+                    <a class="menu__item" href="ecommerce-learning.html">
+                        E-commerce Notes
+                    </a>
+                </li>
+                <li class="menu__list-item text-sm">
+                    <a class="menu__item" href="programming-projects.html">
+                        Programming Skills & Projects
+                    </a>
+                </li>
+                <li class="menu__list-item text-sm">
+                    <a class="menu__item" href="digital-marketing.html">
+                        Digital Marketing Notes
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <address class="header__contact">
+            <a href="mailto:leonardfmr@gmail.com" class="menu__item menu__item--contact text-sm">
+                leonardfmr@gmail.com
+            </a>
+        </address>
     </header>
+    <main class="programming">
+        <section class="programming-intro">
+            <a class="programming-intro__back" href="index.html">
+                ← Back to portfolio
+            </a>
 
-    <main>
-        <h1>Programming Skills & Projects</h1>
+            <div class="programming-intro__content">
+                <p class="programming-intro__label">
+                    Front-end Development · Learning & Projects
+                </p>
 
+                <h1 class="programming-intro__title">
+                    Programming Skills & Projects
+                </h1>
+
+                <p class="programming-intro__description">
+                    A collection of programming skills and practical
+                    projects developed throughout my learning journey.
+                </p>
+            </div>
+        </section>
         <section class="skills" id="skills">
             <h2 class="skills__title text-xl">Programming skills</h2>
             <div class="skills__line">
@@ -160,10 +201,14 @@
                 </div>
             </article>
         </section>
-
-
     </main>
 
+    <footer class="footer">
+        <div class="footer__content">
+            <p>Developed by Leonardo Morales</p>
+            <p>2026</p>
+        </div>
+    </footer>
 </body>
 
 </html>
