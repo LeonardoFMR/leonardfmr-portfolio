@@ -23,14 +23,13 @@
 }
 
 .skills__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
   flex: 1 1 12.5rem;
   max-width: 33.33%;
   margin: 0.625rem;
-}
-
-.skills__item {
-  list-style: none;
-  margin-bottom: 0.5rem;
 }
 
 .skills__item-img {
