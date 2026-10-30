@@ -41,7 +41,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 4rem;
+  gap: 3rem;
 }
 
 .presentation__network-item {
@@ -141,6 +141,11 @@
     font-weight: 500;
     line-height: 2;
     width: 80%;
+  }
+
+  .presentation__network {
+    display: flex;
+    justify-content: space-around;
   }
 
   .presentation__network-img {

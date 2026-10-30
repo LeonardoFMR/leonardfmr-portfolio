@@ -22,3 +22,12 @@
     padding: 1.1rem 10rem;
   }
 }
+
+@media (max-width: 48rem) {
+  .contact-form__input {
+    max-width: 90%;
+  }
+  .contact-form__textarea{
+    max-width: 90%;
+  }
+}
