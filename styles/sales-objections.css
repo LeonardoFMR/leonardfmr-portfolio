@@ -1,0 +1,192 @@
+
+/* === Sales Tools - Portfolio Homepage === */
+
+.sales-tools {
+  width: 100%;
+  padding: 2rem 1.25rem;
+  background-color: var(--background);
+}
+
+.sales-tools__title {
+  margin-bottom: 2rem;
+  color: var(--lightblue);
+  font-weight: 600;
+  text-align: center;
+}
+
+.sales-tools__card {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--darkgray);
+  border: 0.0625rem solid var(--strongblue);
+  border-radius: 0.75rem;
+}
+
+.sales-tools__card-title {
+  margin-bottom: 1.25rem;
+  color: var(--neongreen);
+  font-weight: 600;
+}
+
+.sales-tools__description {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: var(--text-light);
+}
+
+.sales-tools__link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.25rem;
+  color: var(--background);
+  background-color: var(--neonpurple);
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.sales-tools__link:hover {
+  background-color: var(--neongreen);
+}
+
+.sales-tools__link:focus-visible {
+  outline: 0.1875rem solid var(--neongreen);
+  outline-offset: 0.25rem;
+}
+
+/* === Sales Objections - Main Page === */
+
+.sales-objections {
+  width: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+  line-height: 1.6;
+}
+
+/* === Introduction === */
+
+.sales-objections__intro {
+  margin-bottom: 2.5rem;
+}
+
+.sales-objections__back {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  color: var(--lightblue);
+  text-decoration: none;
+}
+
+.sales-objections__back:hover {
+  color: var(--neongreen);
+  text-decoration: underline;
+}
+
+.sales-objections__label {
+  margin-bottom: 0.75rem;
+  color: var(--lightblue);
+  font-size: 0.875rem;
+}
+
+.sales-objections__title {
+  margin-bottom: 1.5rem;
+  color: var(--neongreen);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.sales-objections__description {
+  margin-bottom: 1rem;
+  color: var(--text-light);
+}
+
+/* === Matrix Section === */
+
+.sales-objections__content {
+  width: 100%;
+  min-width: 0;
+}
+
+.sales-objections__subtitle {
+  margin-bottom: 1.5rem;
+  color: var(--lightblue);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* === Table === */
+
+.sales-objections__table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  border: 0.0625rem solid var(--strongblue);
+  border-radius: 0.75rem;
+}
+
+.sales-objections__table {
+  width: 100%;
+  min-width: 48rem;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.sales-objections__table caption {
+  padding: 1rem;
+  color: var(--text-light);
+  font-weight: 500;
+  text-align: left;
+  caption-side: top;
+}
+
+.sales-objections__table thead {
+  background-color: var(--deeppurple);
+}
+
+.sales-objections__table th {
+  padding: 1.25rem;
+  color: var(--lightblue);
+  font-weight: 700;
+  text-align: left;
+  vertical-align: top;
+}
+
+.sales-objections__table td {
+  padding: 1.25rem;
+  border-top: 0.0625rem solid var(--strongblue);
+  color: var(--text-light);
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+.sales-objections__table td:first-child {
+  background-color: var(--darkgray);
+  font-weight: 600;
+}
+
+.sales-objections__table td:nth-child(2){
+  color: var(--neonred);
+  font-weight: 600;
+}
+
+.sales-objections__table td:nth-child(3){
+  color: var(--neongreen);
+  font-weight: 600;
+   background-color: var(--heavyblue);
+}
+
+/*
+.sales-objections__table tbody tr:nth-child(odd) {
+  background-color: var(--darkgray);
+}
+
+.sales-objections__table tbody tr:nth-child(even) {
+  background-color: var(--background);
+}
+
+.sales-objections__table tbody tr:hover {
+  background-color: var(--heavyblue);
+}
+*/
